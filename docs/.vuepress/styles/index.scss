@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+:root {
+    --content-width: 100%;
+    --font-family: 'Source Sans Pro', sans-serif;
+    --c-text-accent: #7263f8;
+    --c-badge-tip: #e49836;
+    --sidebar-width: 15rem;
+}
+
+html.dark {
+    --c-bg: #11111e;
+    --c-bg-light: #1b1b2e;
+    --c-text: #ffffff;
+}
+
+html.dark .toggle-sidebar-button .icon span {
+    background-color: #ffffff;
+}
