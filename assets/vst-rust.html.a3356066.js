@@ -1,0 +1,1 @@
+const t={key:"v-71545a74",path:"/experiments/audio/vst-rust.html",title:"Create a VST using Rust",lang:"fr-FR",frontmatter:{tags:["audio","dsp","rust"]},excerpt:"",headers:[],git:{updatedTime:1644222568e3,contributors:[{name:"Denis BOURGE",email:"Srynetix@users.noreply.github.com",commits:1}]},filePathRelative:"experiments/audio/vst-rust.md"};export{t as data};
