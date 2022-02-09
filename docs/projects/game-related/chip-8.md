@@ -14,7 +14,7 @@ tags: [emulation, rust]
 
 ## Summary
 
-A simple emulator for the [CHIP-8 virtual console](https://en.wikipedia.org/wiki/CHIP-8), written in [Rust](https://www.rust-lang.org/fr).  
+A simple emulator for the [CHIP-8 virtual console](https://en.wikipedia.org/wiki/CHIP-8), written in [Rust](https://www.rust-lang.org).  
 That's my first serious project in Rust, where I try to experiment graphics features.
 
 The rendering and windowing is made using the [macroquad](https://github.com/not-fl3/macroquad) game library.

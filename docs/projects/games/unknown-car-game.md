@@ -17,5 +17,5 @@ tags: [godot, c#, prototype]
 ## Summary
 
 A simple 2D car game where you have to avoid obstacles.  
-I made this game to practice before the Ludum Dare 49 ([see my entry here](./dont-drop-it)).  
-It was useful to experiment with shaders and full-screen effects (extracted in a custom Godot plugin of mine, [see here](../game-related/my-godot-plugins)).
+I made this game to practice before the Ludum Dare 49 ([see my entry here](./dont-drop-it.html)).  
+It was useful to experiment with shaders and full-screen effects (extracted in a custom Godot plugin of mine, [see here](../game-related/my-godot-plugins.html)).

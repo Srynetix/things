@@ -20,7 +20,7 @@ So yeah, I did a few music tracks, a lot of them lost with *hard-drive wiping ac
 
 Around early 2013, I decided to upload my tracks on [SoundCloud](https://soundcloud.com/srynetix), and I was frequently releasing until the end of the same year, when I needed to focus more on university.  
 Since then, I was not really producing anymore, but I watched videos, tutorials, articles on music production, and of course I need to listen to music at least half an hour a day :notes:!  
-Now, I want to go back into music making, particularily in the sound design field, I'm mesmerized by [audio synthesis](./csound) and [I want to create my own software synthesizer](./vst-rust).
+Now, I want to go back into music making, particularily in the sound design field, I'm mesmerized by [audio synthesis](./csound.html) and [I want to create my own software synthesizer](./vst-rust.html).
 
 ## My music hardware
 
