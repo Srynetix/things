@@ -1,0 +1,1 @@
+const e={key:"v-7242f0e7",path:"/projects/games/sc-space-shooter.html",title:"SC Space Shooter",lang:"fr-FR",frontmatter:{tags:["godot","c#"]},excerpt:"",headers:[{level:2,title:"Summary",slug:"summary",children:[{level:3,title:"Description",slug:"description",children:[]}]}],git:{updatedTime:1644394924e3},filePathRelative:"projects/games/sc-space-shooter.md"};export{e as data};

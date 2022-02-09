@@ -1,1 +1,0 @@
-const e={key:"v-62d49b02",path:"/experiments/audio/csound.html",title:"Audio synthesis using Cabbage and CSound",lang:"fr-FR",frontmatter:{tags:["audio","dsp","csound"]},excerpt:"",headers:[],git:{updatedTime:1644222568e3,contributors:[{name:"Denis BOURGE",email:"Srynetix@users.noreply.github.com",commits:1}]},filePathRelative:"experiments/audio/csound.md"};export{e as data};

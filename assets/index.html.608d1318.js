@@ -1,0 +1,1 @@
+const e={key:"v-0ba42452",path:"/experiments/",title:"Experiments",lang:"fr-FR",frontmatter:{},excerpt:"",headers:[{level:2,title:"Music making",slug:"music-making",children:[]},{level:2,title:"Audio synthesis",slug:"audio-synthesis",children:[]}],git:{updatedTime:1644394924e3},filePathRelative:"experiments/README.md"};export{e as data};

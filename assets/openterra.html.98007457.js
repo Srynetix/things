@@ -1,0 +1,1 @@
+const e={key:"v-45838dbd",path:"/projects/games/openterra.html",title:"OpenTerra",lang:"fr-FR",frontmatter:{tags:["godot","c#"]},excerpt:"",headers:[{level:2,title:"Summary",slug:"summary",children:[]}],git:{updatedTime:1644394924e3},filePathRelative:"projects/games/openterra.md"};export{e as data};
