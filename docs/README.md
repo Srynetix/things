@@ -30,7 +30,7 @@ I love the open-source way of things, that's why most of my personal projects ar
 
 Programming languages I know quite well or I would like to know more (*not in order*):
 
-- **C++ (and C)**: The first language I learned, tried making a [game framework](./projects/game-related/hx3d-framework) with it around 2016. I'm not really using C or C++ anymore, mostly because of Rust.
+- **C++ (and C)**: The first language I learned, tried making a [game framework](./projects/game-related/hx3d-framework.html) with it around 2016. I'm not really using C or C++ anymore, mostly because of Rust.
 - **Rust**: The future of systems programming, empowers you to write any kind of software you like with a strict compiler and a steep learning curve, but *soooooo* satisfying at the end that it's difficult going back to another PL.
 - **Python**: Your versatile dynamic language, can be used from scientific computing to fast (to write) web development (thanks Django).
 - **Ruby**: Beautiful and concise, great for code golfing (I'm less familiar with Ruby than Python, but well!).
@@ -38,7 +38,7 @@ Programming languages I know quite well or I would like to know more (*not in or
 - **C#**: Because I don't really like Java, and it is a good candidate for game development (see Unity, or Godot Engine for example)
 
 When I'm not programming, I also like composing music tracks, even if it takes time :notes:.  
-But you know what's even more time consuming and fun for me ? [Programming music](./experiments/audio/csound) :notes:.
+But you know what's even more time consuming and fun for me ? [Programming music](./experiments/audio/csound.html) :notes:.
 
 ### Social links
 

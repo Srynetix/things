@@ -29,7 +29,8 @@ export default defineUserConfig<DefaultThemeOptions>({
   base: '/',
   head: [
     ['link', { rel: 'icon', href: mainIcon }],
-    ['link', { rel: 'manifest', href: 'manifest.json' }],
+    ['link', { rel: 'manifest', href: '/manifest.json' }],
+    ['link', { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap' }],
     ['meta', { name: 'theme-color', content: '#7263f8' }],
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
     ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
@@ -44,6 +45,7 @@ export default defineUserConfig<DefaultThemeOptions>({
     repo: 'Srynetix',
     editLink: false,
     docsDir: 'docs',
+    contributors: false,
     navbar: createNavbar(),
   },
   plugins: [

@@ -16,7 +16,7 @@ tags: [godot, c#]
 
 One of my most ambitious games, **Flags'n'Machines**, is an open-source 3D multiplayer CTF driving game (yes, flags and cars, hence the game name).
 
-That's the game that made me start [Godot plugin projects](../game-related/my-godot-plugins).
+That's the game that made me start [Godot plugin projects](../game-related/my-godot-plugins.html).
 
 ## Design document
 
