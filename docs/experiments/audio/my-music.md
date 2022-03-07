@@ -28,5 +28,6 @@ I don't have that much hardware to make music, but I have at least that:
 - A [first-gen AKAI MPK Mini](https://www.amazon.fr/Akai-MPK-mini-MINI/dp/B00466HM28)
 - A [first-gen Novation Launchpad](https://www.amazon.com/Novation-Launchpad-Controller-Discontinued-manufacturer/dp/B002TX7B4E)
 - A [Plantronics BackBeat Pro 2](https://www.amazon.fr/Plantronics-Backbeat-Kits-Oreillette-Bluetooth/dp/B01MFGYF3I)
-- A [Yamaha PSR-E313](https://www.amazon.com/Yamaha-PSR-E313-Sensitive-Portable-Keyboard/dp/B000Q6JEPU), not really portable but fun to play with,
+- A [Yamaha PSR-E313](https://www.amazon.com/Yamaha-PSR-E313-Sensitive-Portable-Keyboard/dp/B000Q6JEPU), not really portable but fun to play with
+- A [Teenage Engineering PO-33 K.O!](https://www.amazon.fr/Teenage-Engineering-PO-33-K-O/dp/B079M56Z4G/)
 - ...and my beefy desktop computer! (with an *AMD Ryzen 7 3700X* and *32GB of RAM*)
