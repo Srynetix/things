@@ -5,7 +5,7 @@ When I'm not programming software, I like to dabble in infrastructure & DevOps, 
 ## Music making
 
 - [My music](./audio/my-music.html)
-- [Music theory](./audio/music-theory)
+- [Music theory](./audio/music-theory/)
 - [Free plugins and samples links](./audio/free-plugins.html)
 
 ## Audio synthesis

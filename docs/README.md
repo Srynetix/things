@@ -11,7 +11,7 @@ I'm currently **Lead Developer** at [SharingCloud](https://github.com/sharingclo
 
 ## What's in here?
 
-First, you can check my open-source [projects](./projects), then little [experiments](./experiments) I'm trying to do when I have time.  
+First, you can check my open-source [projects](./projects/), then little [experiments](./experiments/) I'm trying to do when I have time.  
 
 ## Bio
 

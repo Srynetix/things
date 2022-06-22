@@ -4,7 +4,7 @@ const SOLFEGE_KEYS = ['Do', 'Ré', 'Mi', 'Fa', 'Sol', 'La', 'Si']
 export enum AccidentalType {
   None,
   Sharp,
-  Flat
+  Flat,
 }
 
 export class NoteKey {
@@ -13,9 +13,9 @@ export class NoteKey {
   octave: number
 
   constructor(note: string, accidental: AccidentalType, octave: number) {
-    this.note = note;
-    this.accidental = accidental;
-    this.octave = octave;
+    this.note = note
+    this.accidental = accidental
+    this.octave = octave
   }
 
   static fromUsStr(str: string): NoteKey {
@@ -23,17 +23,17 @@ export class NoteKey {
     const chars = str.split('')
     const note = chars.splice(0, 1)[0].toUpperCase()
     const accidentalType = (() => {
-      if (chars[0] == "#") {
-        return AccidentalType.Sharp;
-      } else if (chars[0] == "b") {
-        return AccidentalType.Flat;
+      if (chars[0] == '#') {
+        return AccidentalType.Sharp
+      } else if (chars[0] == 'b') {
+        return AccidentalType.Flat
       } else {
-        return AccidentalType.None;
+        return AccidentalType.None
       }
-    })();
+    })()
 
     if (accidentalType != AccidentalType.None) {
-      chars.splice(0, 1);
+      chars.splice(0, 1)
     }
 
     const octave = parseInt(chars.join(''))
@@ -51,7 +51,7 @@ export class NoteKey {
   usNoteToSolfege(): string {
     const index = US_KEYS.indexOf(this.note)
     if (index == -1) {
-      throw new Error(`Not a US key: ${this.note}`);
+      throw new Error(`Not a US key: ${this.note}`)
     }
 
     return SOLFEGE_KEYS[index]
@@ -60,7 +60,7 @@ export class NoteKey {
   solfegeNoteToUs(): string {
     const index = SOLFEGE_KEYS.indexOf(this.note)
     if (index == -1) {
-      throw new Error(`Not a solfege key: ${this.note}`);
+      throw new Error(`Not a solfege key: ${this.note}`)
     }
 
     return US_KEYS[index]
@@ -69,22 +69,22 @@ export class NoteKey {
   getAccidentalAsString(): string {
     switch (this.accidental) {
       case AccidentalType.Flat:
-        return "b";
+        return 'b'
       case AccidentalType.Sharp:
-        return "#";
+        return '#'
       default:
-        return "";
+        return ''
     }
   }
 
   asUsString(): string {
     const note = (() => {
       if (this.isUsKey()) {
-        return this.note;
+        return this.note
       } else {
-        return this.solfegeNoteToUs();
+        return this.solfegeNoteToUs()
       }
-    })();
+    })()
 
     return `${note}${this.getAccidentalAsString()}${this.octave}`
   }
@@ -92,11 +92,11 @@ export class NoteKey {
   asSolfegeString(): string {
     const note = (() => {
       if (this.isSolfegeKey()) {
-        return this.note;
+        return this.note
       } else {
-        return this.usNoteToSolfege();
+        return this.usNoteToSolfege()
       }
-    })();
+    })()
 
     return `${note}${this.getAccidentalAsString()}${this.octave}`
   }

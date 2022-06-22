@@ -1,7 +1,10 @@
 import { defineUserConfig, Page } from 'vuepress'
-import type { DefaultThemeOptions } from 'vuepress'
+import { defaultTheme } from 'vuepress'
 import { path } from '@vuepress/utils'
 import { NavbarConfig } from '@vuepress/theme-default'
+import { pwaPlugin } from '@vuepress/plugin-pwa'
+import { searchPlugin } from '@vuepress/plugin-search'
+import { registerComponentsPlugin } from '@vuepress/plugin-register-components'
 
 const mainIcon = '/images/heh-rounded.png'
 
@@ -22,7 +25,7 @@ function createNavbar(): NavbarConfig {
   ]
 }
 
-export default defineUserConfig<DefaultThemeOptions>({
+export default defineUserConfig({
   lang: 'fr-FR',
   title: 'Things',
   description: "Documentation and articles about things I like, things I made, and things I'm making",
@@ -39,30 +42,23 @@ export default defineUserConfig<DefaultThemeOptions>({
     ['meta', { name: 'msapplication-TileImage', content: mainIcon }],
     ['meta', { name: 'msapplication-TileColor', content: '#7263f8' }],
   ],
-  theme: '@vuepress/theme-default',
-  themeConfig: {
+  theme: defaultTheme({
     logo: mainIcon,
     repo: 'Srynetix',
     editLink: false,
     docsDir: 'docs',
     contributors: false,
     navbar: createNavbar(),
-  },
+  }),
   plugins: [
-    '@vuepress/plugin-pwa',
-    [
-      '@vuepress/plugin-search',
-      {
-        // allow searching the `tags` frontmatter
-        getExtraFields: (page: Page) => page.frontmatter.tags ?? [],
-      },
-    ],
-    [
-      '@vuepress/register-components',
-      {
-        componentsDir: path.resolve(__dirname, './components'),
-      },
-    ],
+    pwaPlugin(),
+    searchPlugin({
+      // allow searching the `tags` frontmatter
+      getExtraFields: (page: Page) => (page.frontmatter.tags as []) ?? [],
+    }),
+    registerComponentsPlugin({
+      componentsDir: path.resolve(__dirname, './components'),
+    }),
   ],
   // From https://github.com/vuepress/vuepress-next/discussions/72#discussioncomment-472465
   onPrepared: async (app) => {
