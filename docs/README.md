@@ -4,7 +4,7 @@
     <img src="/images/me.jpg" style="width: 200px; height: 200px; border-radius: 50%">
 </p>
 
-Hello everyone, I'm **Denis BOURGE** ([@Srynetix](https://github.com/Srynetix)), a 27 year old developer who fell in love with programming while I was in school.  
+Hello everyone, I'm **Denis BOURGE** ([@Srynetix](https://github.com/Srynetix)), a 28 year old developer who fell in love with programming while I was in school.  
 I love making games and system stuff, open-source if possible.
 
 I'm currently **Lead Developer** at [SharingCloud](https://github.com/sharingcloud/).
