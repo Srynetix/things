@@ -9,7 +9,7 @@ tags: [nintendo-switch, c]
     date="2018"
     status="paused"
     url="https://github.com/Srynetix/libnx-gol"
-    :screenshot="$withBase('/images/gol.png')"
+    :screenshots="[$withBase('/images/gol.png')]"
 />
 
 ## Summary

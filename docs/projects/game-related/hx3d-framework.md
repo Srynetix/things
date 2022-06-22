@@ -9,8 +9,7 @@ tags: [game-framework, c++]
     date="2015"
     status="abandoned"
     url="https://github.com/Srynetix/hx3d-framework"
-    :screenshot="$withBase('/images/hx3d.png')"
-    caption="Logo"
+    :screenshots="[$withBase('/images/hx3d.png')]"
 />
 
 ## Summary

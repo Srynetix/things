@@ -25,9 +25,8 @@
         </div>
       </div>
     </div>
-    <div class="card-screenshot" v-if="!!screenshot">
-      <img class="card-screenshot-img" :src="screenshot" alt="screenshot" :width="screenshotWidth" :height="screenshotHeight" />
-      <div class="card-screenshot-caption">{{ caption }}</div>
+    <div class="card-screenshot" v-if="!!screenshots">
+      <img class="card-screenshot-img" v-for="screenshot in screenshots" :key="screenshot" :src="screenshot" alt="screenshot" :width="screenshotWidth" :height="screenshotHeight" />
     </div>
   </div>
 </template>
@@ -49,16 +48,12 @@ export default defineComponent({
     status: String,
     url: String,
     urls: Array,
-    screenshot: String,
+    screenshots: Array,
     screenshotWidth: {
-      type: String,
+      type: Number,
       default: 300
     },
-    screenshotHeight: String,
-    caption: {
-      default: "Screenshot",
-      type: String
-    }
+    screenshotHeight: Number,
   },
   setup() {
     const zoom = useMediumZoom()
@@ -98,9 +93,13 @@ export default defineComponent({
   align-self: center;
 }
 
-.card-screenshot-caption {
-  text-align: center;
-  font-style: italic;
+.card-screenshot {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-screenshot-img {
+  margin: 4px 0;
 }
 
 .card-field {

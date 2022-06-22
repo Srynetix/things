@@ -9,7 +9,7 @@ tags: [godot, gdscript, game-jam]
     date="2018"
     status="finished"
     url="https://github.com/Srynetix/gwj2-recursive-quest"
-    :screenshot="$withBase('/images/loading.gif')"
+    :screenshots="[$withBase('/images/loading.gif')]"
 />
 
 ## Summary

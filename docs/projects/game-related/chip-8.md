@@ -9,7 +9,7 @@ tags: [emulation, rust]
     date="2018"
     status="paused"
     url="https://github.com/Srynetix/chip8"
-    :screenshot="$withBase('/images/chip-8.gif')"
+    :screenshots="[$withBase('/images/chip-8.gif')]"
 />
 
 ## Summary

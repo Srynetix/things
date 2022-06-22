@@ -1,6 +1,8 @@
 [:back: Back to **Experiments**](../../)
 # Music theory
 
+**Warning: this is a work in progress!**
+
 I'm currently following courses about music theory, and this part of my site will be my course notes.
 
 ## Notes & language

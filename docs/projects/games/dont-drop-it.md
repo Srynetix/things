@@ -8,8 +8,8 @@ tags: [godot, c#, game-jam]
     language="Godot/C#"
     date="2021"
     status="finished"
-    url="https://github.com/Srynetix/ludumdare49"
-    :screenshot="$withBase('/images/dont-drop-it.gif')"
+    url="https://github.com/Srynetix/dont-drop-it"
+    :screenshots="[$withBase('/images/dont-drop-it.png'),$withBase('/images/dont-drop-it.gif')]"
 />
 
 ## Summary
@@ -31,3 +31,5 @@ The concept is simple: you have to drag-n-drop a bomb ready to explode to a safe
 Instructions are included in the game, but I warn you, it is quite challenging.
 
 If you reach the end without dying once, you may get a surprise! :gift:
+
+**:rocket: [Play it here!](https://srynetix.github.io/dont-drop-it/Dont-drop-it)**
