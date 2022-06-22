@@ -15,20 +15,18 @@ First, you can check my open-source [projects](./projects/), then little [experi
 
 ## Bio
 
-I always liked computers since I was a little child, and I'm into programming since I was 12 years old.
-I'm particularily interested in game development (and everything around graphics programming, like shaders or demoscene), but also high performance computing (HPC) in general (<abbr title="General-Purpose computation on Graphic Processing Units">GPGPU</abbr>, multi-threaded programming, etc.).  
+I always liked computers since I was a little child, and I'm into programming since I'm 12 years old.  
+I'm particularily interested in game development (and everything around graphics programming, like shaders or the demoscene), but also high performance computing (HPC) in general (<abbr title="General-Purpose computation on Graphic Processing Units">GPGPU</abbr>, multi-threaded programming, etc.).  
 
 I also have some years of professional experience in the web development field, particularily with the [Django](https://www.djangoproject.com/) framework (so with a **Python** backend), but in the end I'm more a *static-typed* language fan.  
 That's why I also use **React** with **TypeScript** for the frontend.
 
 I love the open-source way of things, that's why most of my personal projects are (and will always be) open-source, available on GitHub.  
-**Knowledge should be shared with everyone**.
+**Knowledge should be free and shared with everyone**.
 
 ### My skills
 
-#### Programming
-
-Programming languages I know quite well or I would like to know more (*not in order*):
+Here are some programming languages I know quite well or I would like to know more (*not in order*):
 
 - **C++ (and C)**: The first language I learned, tried making a [game framework](./projects/game-related/hx3d-framework.html) with it around 2016. I'm not really using C or C++ anymore, mostly because of Rust.
 - **Rust**: The future of systems programming, empowers you to write any kind of software you like with a strict compiler and a steep learning curve, but *soooooo* satisfying at the end that it's difficult going back to another PL.
