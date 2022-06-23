@@ -1,7 +1,7 @@
 ---
 tags: [godot, c#, game-jam]
 ---
-[:back: Back to **Projects**](../)
+<Back name="Projects" />
 # Deep Space Beat - Ludum Dare 48
 
 <ProjectCard

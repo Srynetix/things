@@ -1,7 +1,7 @@
 ---
 tags: [godot, gdscript, game-jam]
 ---
-[:back: Back to **Projects**](../)
+<Back name="Projects" />
 # Loading... - Ludum Dare 45
 
 <ProjectCard

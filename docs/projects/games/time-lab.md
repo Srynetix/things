@@ -1,7 +1,8 @@
 ---
 tags: [godot, gdscript, game-jam]
 ---
-[:back: Back to **Projects**](../)
+<Back name="Projects" />
+
 # Time Lab - Ludum Dare 50
 
 <ProjectCard
@@ -43,3 +44,5 @@ Features:
 - Original level collection for the Ludum Dare 50 (12 levels),
 - A level selector to browse collections,
 - An in-game level editor to create your own challenges, that you can export/import and share to the world (with binary files or Base64!)
+
+**:rocket: [Play it here!](https://srynetix.github.io/time-lab/)**

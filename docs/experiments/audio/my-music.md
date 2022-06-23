@@ -1,7 +1,8 @@
 ---
 tags: [audio, music]
 ---
-[:back: Back to **Experiments**](../)
+<Back name="Experiments" />
+
 # My music
 
 You can find it [on SoundCloud](https://soundcloud.com/srynetix).

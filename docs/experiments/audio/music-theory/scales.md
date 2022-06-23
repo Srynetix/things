@@ -1,4 +1,5 @@
-[:back: Back to **Music theory**](./)
+<Back name="Music theory" link="./" />
+
 # Scales
 
 ## Major scales

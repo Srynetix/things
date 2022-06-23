@@ -1,7 +1,7 @@
 ---
 tags: [godot, c#]
 ---
-[:back: Back to **Projects**](../)
+<Back name="Projects" />
 # SC Space Shooter
 
 <ProjectCard

@@ -1,7 +1,7 @@
 ---
 tags: [emulation, rust]
 ---
-[:back: Back to **Projects**](../)
+<Back name="Projects" />
 # CHIP-8 Emulator
 
 <ProjectCard

@@ -1,7 +1,8 @@
 ---
 tags: [audio, dsp, csound]
 ---
-[:back: Back to **Experiments**](../)
+<Back name="Experiments" />
+
 # Audio synthesis using Cabbage and CSound
 
 *todo...*

@@ -1,7 +1,7 @@
 ---
 tags: [godot, c#, game-jam]
 ---
-[:back: Back to **Projects**](../)
+<Back name="Projects" />
 # Don't drop it! - Ludum Dare 49
 
 <ProjectCard

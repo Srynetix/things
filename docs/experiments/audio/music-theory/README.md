@@ -1,4 +1,5 @@
-[:back: Back to **Experiments**](../../)
+<Back name="Experiments" link="../../" />
+
 # Music theory
 
 **Warning: this is a work in progress!**

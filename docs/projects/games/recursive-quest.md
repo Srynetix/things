@@ -1,7 +1,7 @@
 ---
 tags: [godot, gdscript, game-jam]
 ---
-[:back: Back to **Projects**](../)
+<Back name="Projects" />
 # Recursive Quest - Godot Wild Jam #2
 
 <ProjectCard

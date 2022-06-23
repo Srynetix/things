@@ -1,7 +1,7 @@
 ---
 tags: [nintendo-switch, c]
 ---
-[:back: Back to **Projects**](../)
+<Back name="Projects" />
 # Game of Life for Nintendo Switch (using libnx)
 
 <ProjectCard

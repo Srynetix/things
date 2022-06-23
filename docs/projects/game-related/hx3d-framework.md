@@ -1,7 +1,7 @@
 ---
 tags: [game-framework, c++]
 ---
-[:back: Back to **Projects**](../)
+<Back name="Projects" />
 # hx3d framework
 
 <ProjectCard

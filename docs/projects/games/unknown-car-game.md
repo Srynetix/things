@@ -1,7 +1,7 @@
 ---
 tags: [godot, c#, prototype]
 ---
-[:back: Back to **Projects**](../)
+<Back name="Projects" />
 # Unknown Car Game
 
 <ProjectCard

@@ -1,7 +1,8 @@
 ---
 tags: [audio, free, music]
 ---
-[:back: Back to **Experiments**](../)
+<Back name="Experiments" />
+
 # Free plugins and samples links
 
 Here is a list of links to free plugins and samples.

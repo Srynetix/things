@@ -1,7 +1,7 @@
 ---
 tags: [rust, github]
 ---
-[:back: Back to **Projects**](../)
+<Back name="Projects" />
 # SharingCloud PR Bot
 
 <ProjectCard

@@ -1,7 +1,7 @@
 ---
 tags: [godot, rust]
 ---
-[:back: Back to **Projects**](../)
+<Back name="Projects" />
 # gdpm - Godot Project Manager
 
 <ProjectCard

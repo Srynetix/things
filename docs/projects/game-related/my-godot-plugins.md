@@ -2,7 +2,7 @@
 tags: [godot, c#]
 sidebarDepth: 1
 ---
-[:back: Back to **Projects**](../)
+<Back name="Projects" />
 # My Godot plugins
 
 <ProjectCard

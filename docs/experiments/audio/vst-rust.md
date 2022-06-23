@@ -1,7 +1,8 @@
 ---
 tags: [audio, dsp, rust]
 ---
-[:back: Back to **Experiments**](../)
+<Back name="Experiments" />
+
 # Create a VST using Rust
 
 *todo...*

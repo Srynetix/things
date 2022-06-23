@@ -1,7 +1,7 @@
 ---
 tags: [python, docker]
 ---
-[:back: Back to **Projects**](../)
+<Back name="Projects" />
 # docknv - Docker with environments
 
 <ProjectCard
