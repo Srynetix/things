@@ -9,7 +9,7 @@ tags: [godot, c#, game-jam]
     date="2021"
     status="finished"
     url="https://github.com/Srynetix/ludumdare48"
-    :screenshots="[$withBase('/images/deep-space-beat.gif')]"
+    :screenshots="['/images/deep-space-beat.gif']"
 />
 
 ## Summary

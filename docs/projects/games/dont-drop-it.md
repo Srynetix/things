@@ -9,7 +9,7 @@ tags: [godot, c#, game-jam]
     date="2021"
     status="finished"
     url="https://github.com/Srynetix/dont-drop-it"
-    :screenshots="[$withBase('/images/dont-drop-it.png'),$withBase('/images/dont-drop-it.gif')]"
+    :screenshots="['/images/dont-drop-it.png','/images/dont-drop-it.gif']"
 />
 
 ## Summary

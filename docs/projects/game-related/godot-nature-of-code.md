@@ -9,7 +9,7 @@ tags: [godot, c#]
     date="2020"
     status="paused"
     url="https://github.com/Srynetix/godot-nature-of-code"
-    :screenshots="[$withBase('/images/nature-of-code.gif')]"
+    :screenshots="['./nature-of-code.gif']"
 />
 
 ## Summary

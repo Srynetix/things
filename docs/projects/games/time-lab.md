@@ -10,7 +10,7 @@ tags: [godot, gdscript, game-jam]
     date="2022"
     status="active"
     url="https://github.com/Srynetix/time-lab"
-    :screenshots="[$withBase('/images/time-lab.png'), $withBase('/images/time-lab-preview.gif')]"
+    :screenshots="['/images/time-lab.png', '/images/time-lab-preview.gif']"
 />
 
 ## Summary

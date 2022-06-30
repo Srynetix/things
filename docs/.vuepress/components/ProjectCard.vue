@@ -26,13 +26,15 @@
       </div>
     </div>
     <div class="card-screenshot" v-if="!!screenshots">
-      <img class="card-screenshot-img" v-for="screenshot in screenshots" :key="screenshot" :src="screenshot" alt="screenshot" :width="screenshotWidth" :height="screenshotHeight" />
+      <img class="card-screenshot-img" v-for="screenshot in screenshots" :key="screenshot" :src="screenshotPath(screenshot)" alt="screenshot" :width="screenshotWidth" :height="screenshotHeight" />
     </div>
   </div>
 </template>
 
 <script lang="ts">
 import { defineComponent, nextTick } from 'vue'
+import { withBase, usePageData } from '@vuepress/client'
+import { DefaultThemePageData } from '@vuepress/theme-default'
 import { useMediumZoom } from '@vuepress/plugin-medium-zoom/lib/client'
 
 export default defineComponent({
@@ -40,6 +42,9 @@ export default defineComponent({
     projectName(url: string) {
       const split = url.split("/")
       return split[split.length - 1]
+    },
+    screenshotPath(url: string) {
+      return withBase(url)
     }
   },
   props: {
@@ -57,8 +62,10 @@ export default defineComponent({
   },
   setup() {
     const zoom = useMediumZoom()
+    const page = usePageData<DefaultThemePageData>()
 
     nextTick(() => {
+      console.log(page)
       zoom.refresh()
     })
   }

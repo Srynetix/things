@@ -9,7 +9,7 @@ tags: [godot, c#]
     date="2021"
     status="paused"
     url="https://github.com/Srynetix/flags-n-machines"
-    :screenshots="[$withBase('/images/flags-n-machines.gif')]"
+    :screenshots="['/images/flags-n-machines.gif']"
 />
 
 ## Summary
