@@ -117,7 +117,6 @@ const config = {
           alt: "Things Logo",
           src: "img/logo.png",
         },
-        hideOnScroll: true,
         items: [
           {
             to: "/",
