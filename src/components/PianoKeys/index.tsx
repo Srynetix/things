@@ -1,5 +1,5 @@
 import { NoteKey } from '@site/src/utils/NoteKey';
-import React, { useCallback, useEffect, useRef } from 'react';
+import React, { useEffect, useRef } from 'react';
 import styles from './styles.module.scss';
 
 const TEXT_SIZE = 11;
@@ -61,30 +61,21 @@ function convertUsKeyToSolfege(usKey: string): string {
     return key.asSolfegeString()
 }
 
-const useCanvas = (cb: (canvas: HTMLCanvasElement) => void) => {
-    const canvasRef = useRef(null);
-    useEffect(() => {
-        const canvas = canvasRef.current;
-        cb(canvas);
-    }, []);
-    return canvasRef;
-}
-
 const PianoKeys = (props: Props) => {
-    let ref = useRef();
+    const ref = useRef();
 
     useEffect(() => {
         let requestId: number;
 
-        let canvas: HTMLCanvasElement = ref.current;
+        const canvas: HTMLCanvasElement = ref.current;
         let mouseX: number, mouseY: number;
 
-        let mousemoveCallback = (ev: MouseEvent) => {
+        const mousemoveCallback = (ev: MouseEvent) => {
             mouseX = ev.offsetX;
             mouseY = ev.offsetY;
         }
 
-        let mouseleaveCallback = (ev: MouseEvent) => {
+        const mouseleaveCallback = (_ev: MouseEvent) => {
             mouseX = mouseY = undefined;
         }
 
@@ -96,7 +87,7 @@ const PianoKeys = (props: Props) => {
             const height = WHITE_KEY_HEIGHT;
             const asSolfege = props.solfegeNotation ?? false;
             const active: string[] = (() => {
-                let active = props.active || [];
+                const active = props.active || [];
                 if (asSolfege) {
                     return active.map((a: string) => convertUsKeyToSolfege(a))
                 }

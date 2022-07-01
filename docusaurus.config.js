@@ -123,7 +123,7 @@ const config = {
             to: '/',
             label: 'About me',
             position: 'left',
-            activeBaseRegex: '^\/$'
+            activeBaseRegex: '^/$'
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
@@ -145,7 +145,7 @@ const config = {
       },
       footer: {
         style: 'dark',
-        copyright: `Copyright © ${new Date().getFullYear()} Denis BOURGE. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Denis BOURGE. Code is open-source, built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,

@@ -52,6 +52,12 @@
 .card-field-label {
     margin: 0 1rem 0 0;
     font-weight: bold;
+    display: flex;
+    align-items: center;
+
+    & > svg {
+        margin-right: 0.25rem;
+    }
 }
 
 .card-field-urls {

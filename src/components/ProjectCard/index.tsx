@@ -20,15 +20,9 @@ export const ProjectCard = (props: Props) => {
     const firstScreenshot = (props.screenshots || [])?.[0];
     useEffect(() => {
         if (imageRef.current) {
-            const zoom = mediumZoom(imageRef.current, {
+            mediumZoom(imageRef.current, {
                 background: "#000000dd"
             });
-
-            // zoom.on("open", (e) => {
-                // (e.target as any).style.width = undefined;
-                // (e.target as any).style.height = undefined;
-                // console.log(e);
-            // });
         }
     }, [imageRef]);
 

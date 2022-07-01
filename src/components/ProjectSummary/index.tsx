@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import IconExternalLink from '@theme/IconExternalLink';
 import styles from './styles.module.scss';
 import mediumZoom from 'medium-zoom';
+import { FaGithub } from 'react-icons/fa';
 
 interface Props {
     urls: string[],
@@ -26,7 +27,7 @@ const ProjectSummary = (props: Props) => {
         <div className={styles.card}>
             <div className={styles["card-fields"]}>
                 <div className={styles["card-field"]}>
-                    <div className={styles["card-field-label"]}>GitHub Project</div>
+                    <div className={styles["card-field-label"]}><FaGithub /> GitHub Project</div>
                     <div className={styles["card-field-value"]}>
                         <div className={styles["card-field-urls"]}>
                             {props.urls.map(url => (
