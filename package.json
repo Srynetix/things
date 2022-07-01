@@ -1,26 +1,70 @@
 {
-  "name": "things",
-  "version": "1.0.0",
-  "author": "Denis BOURGE <denis.bourge@sharingcloud.com>",
-  "license": "MIT",
+  "name": "docutest",
+  "version": "0.0.0",
   "private": true,
   "scripts": {
-    "dev": "vuepress dev docs",
-    "build": "vuepress build docs",
-    "lint": "eslint \"docs/.vuepress/**/*.ts\"",
-    "fmt": "prettier \"docs/.vuepress/**/*.ts\" --write"
+    "docusaurus": "docusaurus",
+    "start": "docusaurus start",
+    "build": "docusaurus build",
+    "swizzle": "docusaurus swizzle",
+    "deploy": "docusaurus deploy",
+    "clear": "docusaurus clear",
+    "serve": "docusaurus serve",
+    "write-translations": "docusaurus write-translations",
+    "write-heading-ids": "docusaurus write-heading-ids",
+    "lint": "eslint . && tsc",
+    "fmt": "prettier .",
+    "typecheck": "tsc"
+  },
+  "dependencies": {
+    "@cmfcmf/docusaurus-search-local": "^0.11.0",
+    "@docusaurus/core": "2.0.0-beta.21",
+    "@docusaurus/plugin-pwa": "2.0.0-beta.21",
+    "@docusaurus/preset-classic": "2.0.0-beta.21",
+    "@docusaurus/theme-common": "2.0.0-beta.21",
+    "@mdx-js/react": "^1.6.22",
+    "clsx": "^1.1.1",
+    "docusaurus-plugin-sass": "^0.2.2",
+    "medium-zoom": "^1.0.6",
+    "plugin-image-zoom": "^1.1.0",
+    "prism-react-renderer": "^1.3.3",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-icons": "^4.4.0",
+    "sass": "^1.53.0",
+    "sass-loader": "^13.0.1"
   },
   "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "^5.9.1",
-    "@typescript-eslint/parser": "^5.9.1",
-    "@vuepress/plugin-pwa": "2.0.0-beta.35",
-    "@vuepress/plugin-register-components": "^2.0.0-beta.35",
-    "@vuepress/plugin-search": "^2.0.0-beta.35",
-    "eslint": "^8.6.0",
-    "eslint-config-prettier": "^8.3.0",
-    "eslint-plugin-prettier": "^4.0.0",
-    "prettier": "^2.5.1",
-    "typescript": "^4.5.4",
-    "vuepress": "^2.0.0-beta.35"
+    "@docusaurus/eslint-plugin": "2.0.0-beta.21",
+    "@docusaurus/module-type-aliases": "2.0.0-beta.21",
+    "@docusaurus/theme-classic": "2.0.0-beta.21",
+    "@docusaurus/types": "2.0.0-beta.21",
+    "@tsconfig/docusaurus": "^1.0.5",
+    "@types/node": "^18.0.0",
+    "@types/react": ">=16.8.0 <19.0.0",
+    "@typescript-eslint/eslint-plugin": "^5.30.0",
+    "@typescript-eslint/parser": "^5.30.0",
+    "eslint": "^8.18.0",
+    "eslint-config-prettier": "^8.5.0",
+    "prettier": "^2.7.1",
+    "typescript": "^4.6.4"
+  },
+  "resolutions": {
+    "sass-loader": "^13.0.1"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.5%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }

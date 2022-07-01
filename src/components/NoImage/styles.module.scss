@@ -1,0 +1,21 @@
+@import "../../css/variables.scss";
+
+$card-width: 350px;
+$card-height: 225px;
+
+.container {
+  max-width: $card-width;
+  height: $card-height;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #111;
+}
+
+.text {
+  justify-self: center;
+  font-weight: bold;
+  font-size: large;
+  user-select: none;
+  color: var(--things-noimage-color);
+}
