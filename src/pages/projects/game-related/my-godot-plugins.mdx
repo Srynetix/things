@@ -2,6 +2,7 @@
 title: My Godot Plugins
 tags: [godot, c#]
 ---
+
 <Back name="Projects" link="../../" />
 
 # My Godot plugins
@@ -9,7 +10,7 @@ tags: [godot, c#]
 # Summary
 
 I try to modularize my **C#** developments using Godot Engine as reusable packages.  
-When I'm working on some games, some things can be reused between all on them, or externalized if someone else wants to use it.  
+When I'm working on some games, some things can be reused between all on them, or externalized if someone else wants to use it.
 
 Here are the current available plugins with descriptions.
 
@@ -121,45 +122,65 @@ There is an included sample scene in `samples/Sample.tscn` to play with the avai
 
 **How to use**: Only add in scene tree  
 **Parameters**:
+
 - `strength`: Blur strength
 
-<CenteredImage src="https://github.com/Srynetix/godot-plugin-fx/raw/main/misc/gaussianblur.gif" alt="gaussianblur" />
+<CenteredImage
+  src="https://github.com/Srynetix/godot-plugin-fx/raw/main/misc/gaussianblur.gif"
+  alt="gaussianblur"
+/>
 
 #### Better blur (`BetterBlur`)
 
 **How to use**: Only add in scene tree  
 **Parameters**:
+
 - `strength`: Blur strength
 
-*Note*: This is the `GaussianBlur` effect, but Web compatible (GLES2).
+_Note_: This is the `GaussianBlur` effect, but Web compatible (GLES2).
 
-<CenteredImage src="https://github.com/Srynetix/godot-plugin-fx/raw/main/misc/betterblur.gif" alt="betterblur" />
+<CenteredImage
+  src="https://github.com/Srynetix/godot-plugin-fx/raw/main/misc/betterblur.gif"
+  alt="betterblur"
+/>
 
 #### Motion blur (`MotionBlur`)
 
 **How to use**: Only add in scene tree  
 **Parameters**:
+
 - `strength`: Blur strength
 - `angle_degrees`: Angle in degrees
 
-<CenteredImage src="https://github.com/Srynetix/godot-plugin-fx/raw/main/misc/motionblur.gif" alt="motionblur" />
+<CenteredImage
+  src="https://github.com/Srynetix/godot-plugin-fx/raw/main/misc/motionblur.gif"
+  alt="motionblur"
+/>
 
 #### Shockwave (`Shockwave`)
 
 **How to use**: Use the `Start` method with a `Vector2` position  
 **Parameters**:
+
 - `force`: Reflection force
 - `thickness`: Wave ring thickness
 
-<CenteredImage src="https://github.com/Srynetix/godot-plugin-fx/raw/main/misc/shockwave.gif" alt="shockwave" />
+<CenteredImage
+  src="https://github.com/Srynetix/godot-plugin-fx/raw/main/misc/shockwave.gif"
+  alt="shockwave"
+/>
 
 #### Vignette (`Vignette`)
 
 **How to use**: Only add in scene tree  
 **Parameters**:
+
 - `ratio`: Vignette strength
 
-<CenteredImage src="https://github.com/Srynetix/godot-plugin-fx/raw/main/misc/vignette.gif" alt="vignette" />
+<CenteredImage
+  src="https://github.com/Srynetix/godot-plugin-fx/raw/main/misc/vignette.gif"
+  alt="vignette"
+/>
 
 ## godot-plugin-mathext - Math extensions
 
@@ -216,9 +237,9 @@ git submodule add https://github.com/Srynetix/godot-plugin-debug addons/debug
 Add the `DebugMenu` scene as autoload, and enjoy the included tools:
 
 - The node tracer panel (`F2`)
-    - Contains properties exposed in your nodes containing a `NodeTracer` child node.
+  - Contains properties exposed in your nodes containing a `NodeTracer` child node.
 - The logging panel (`F3`)
-    - Displays log messages with severity.
+  - Displays log messages with severity.
 
 You also have the `Logging` facility to write logs to the console or to the logging panel.  
 Usage:
@@ -246,10 +267,11 @@ This plugin depends on [godot-plugin-nodeext](https://github.com/Srynetix/godot-
 
 ### How to use
 
-- Simply spawn the `VirtualControls` node, trigger visibility status with the `Visible` property.  
+- Simply spawn the `VirtualControls` node, trigger visibility status with the `Visible` property.
 - Map joystick movements and key presses with the `ActionMap` property.
 
 Available keys:
+
 - `left`: Joystick left movement
 - `right`: Joystick right movement
 - `up`: Joystick up movement
@@ -277,11 +299,14 @@ Contains a few C# nodes and utilities:
 - A wrapper which convert icon names to unicode code point: `FontAwesomeWrapper.ParseIcon("my-icon")`
 - Two FontAwesome DynamicFonts (at 16pt and 32pt), in `resources`
 - Two control nodes:
-    - **FALabel**: A RichTextLabel wrapper that can display inline icons, with size variations (16 or 32pt).
-    - **IconTouchButton**: A 96x96 touch button which displays a 32pt icon
+  - **FALabel**: A RichTextLabel wrapper that can display inline icons, with size variations (16 or 32pt).
+  - **IconTouchButton**: A 96x96 touch button which displays a 32pt icon
 - A sample scene displaying everything in `samples/FATests.tscn`
 
-<CenteredImage src="https://raw.githubusercontent.com/Srynetix/godot-plugin-fontawesome/master/docs/screenshot.png" alt="screenshot" />
+<CenteredImage
+  src="https://raw.githubusercontent.com/Srynetix/godot-plugin-fontawesome/master/docs/screenshot.png"
+  alt="screenshot"
+/>
 
 ### Exporting
 

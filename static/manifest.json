@@ -1,22 +1,22 @@
 {
-    "name": "Things",
-    "short_name": "Things",
-    "icons": [
-        {
-            "src": "/img/logo.png",
-            "sizes": "184x184",
-            "type": "image/png"
-        }
-    ],
-    "scope": "./",
-    "start_url": "./index.html",
-    "display": "standalone",
-    "background_color": "#1b1b2e",
-    "theme_color": "#7263f8",
-    "related_applications": [
-        {
-            "platform": "webapp",
-            "url": "https://docusaurus.io/manifest.json"
-        }
-    ]
+  "name": "Things",
+  "short_name": "Things",
+  "icons": [
+    {
+      "src": "/img/logo.png",
+      "sizes": "184x184",
+      "type": "image/png"
+    }
+  ],
+  "scope": "./",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#1b1b2e",
+  "theme_color": "#7263f8",
+  "related_applications": [
+    {
+      "platform": "webapp",
+      "url": "https://docusaurus.io/manifest.json"
+    }
+  ]
 }

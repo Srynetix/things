@@ -16,7 +16,7 @@ If you read the title, I'm gonna write about this website: **why doing it**, **h
 Well everyone has a website or a personal page!  
 Back in the days, I did my own personal page multiple times using good ol' hand-written HTML4 and CSS2 and it was great! (and unmaintainable but I didn't care back then).
 
-Now, in 2022, you have all the tools at your disposal do to something great, without reinventing the wheel, thanks to things like *static site generators* (also called **SSG**).  
+Now, in 2022, you have all the tools at your disposal do to something great, without reinventing the wheel, thanks to things like _static site generators_ (also called **SSG**).  
 So that's what I tried to do.
 
 ### VuePress
@@ -25,7 +25,7 @@ First, I tried <ELink href="https://v2.vuepress.vuejs.org/">**VuePress v2**</ELi
 So in the end, the first deployed version of this site was completely done thanks to **VuePress**!
 
 The thing I really liked was to include custom Vue components in Markdown, so I was making my first Vue components!  
-At each opportunity to encapsulate something reusable (like a "project card" or a simple "back button"), I did a component.  
+At each opportunity to encapsulate something reusable (like a "project card" or a simple "back button"), I did a component.
 
 The thing I didn't like was to put all my images at the same place, because it is not possible to store images with articles if you refer to them in Vue components (or I don't know how to do it, I tried looking everywhere but I may have missed something).
 

@@ -10,14 +10,14 @@ import ProjectSummary from "@site/src/components/ProjectSummary";
 import ELink from "@site/src/components/ELink";
 
 export default {
-    ...MDXComponents,
+  ...MDXComponents,
 
-    Back,
-    PianoKeys,
-    CardCollection,
-    CenteredImage,
-    ProjectCard,
-    ProjectSummary,
-    IconExternalLink,
-    ELink,
-}
+  Back,
+  PianoKeys,
+  CardCollection,
+  CenteredImage,
+  ProjectCard,
+  ProjectSummary,
+  IconExternalLink,
+  ELink,
+};
