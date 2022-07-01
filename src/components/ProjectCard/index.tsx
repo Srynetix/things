@@ -15,7 +15,7 @@ interface Props {
     link: string
 }
 
-const ProjectCard = (props: Props) => {
+export const ProjectCard = (props: Props) => {
     const imageRef = useRef(null)
     const firstScreenshot = (props.screenshots || [])?.[0];
     useEffect(() => {

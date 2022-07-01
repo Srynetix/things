@@ -22,30 +22,35 @@
 
     display: flex;
     flex-direction: column;
-
     align-self: center;
 }
 
 .card-screenshot {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-between;
+
+    @media screen and (max-width: 600px) {
+        flex-direction: column;
+    }
 }
 
 .card-screenshot-img {
-    margin: 4px 0;
+    margin: 1rem;
 }
 
 .card-field {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 
-    @media screen and (max-width: 320px) {
+    @media screen and (max-width: 300px) {
         flex-direction: column;
     }
 }
 
 .card-field-label {
-    width: 200px;
+    margin: 0 1rem 0 0;
     font-weight: bold;
 }
 

@@ -9,46 +9,52 @@
 /* You can override the default Infima variables here. */
 :root {
   --ifm-color-primary: #{$primary-color};
-  --ifm-color-primary-dark: #{scale-color($primary-color, $lightness: -15%)};
-  --ifm-color-primary-darker: #{scale-color($primary-color, $lightness: -30%)};
-  --ifm-color-primary-darkest: #{scale-color($primary-color, $lightness: -45%)};
-  --ifm-color-primary-light: #{scale-color($primary-color, $lightness: 15%)};
-  --ifm-color-primary-lighter: #{scale-color($primary-color, $lightness: 30%)};
-  --ifm-color-primary-lightest: #{scale-color($primary-color, $lightness: 45%)};
+  --ifm-color-primary-dark: #{scale-color($primary-color, $lightness: -1%)};
+  --ifm-color-primary-darker: #{scale-color($primary-color, $lightness: -2%)};
+  --ifm-color-primary-darkest: #{scale-color($primary-color, $lightness: -3%)};
+  --ifm-color-primary-light: #{scale-color($primary-color, $lightness: 40%)};
+  --ifm-color-primary-lighter: #{scale-color($primary-color, $lightness: 60%)};
+  --ifm-color-primary-lightest: #{scale-color($primary-color, $lightness: 90%)};
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 
   --ifm-container-width-xl: 1500px;
   --ifm-font-size-base: 98%;
-  --ifm-font-family-base: #{$default-font};
+  --ifm-font-family-base: system-ui, -apple-system, Source Sans Pro, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
   --ifm-footer-padding-vertical: var(--ifm-spacing-vertical);
-  --things-border-color: #3e4c5a;
   --ifm-heading-margin-top: 2rem;
 
   --ifm-background-color: #eeeeee;
   --ifm-navbar-background-color: #{scale-color($primary-color, $lightness: 75%)};
-  --ifm-footer-background-color: #{scale-color($primary-color, $lightness: 70%)};
+  --ifm-footer-background-color: #{scale-color($primary-color, $lightness: 75%)};
+
+  --things-border-color: #3e4c5a;
+  --things-noimage-color: #eee;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 html[data-theme='dark'] {
   --ifm-color-primary: #{$dark-primary-color};
-  --ifm-color-primary-dark: #{scale-color($dark-primary-color, $lightness: -15%)};
-  --ifm-color-primary-darker: #{scale-color($dark-primary-color, $lightness: -30%)};
-  --ifm-color-primary-darkest: #{scale-color($dark-primary-color, $lightness: -45%)};
-  --ifm-color-primary-light: #{scale-color($dark-primary-color, $lightness: 15%)};
-  --ifm-color-primary-lighter: #{scale-color($dark-primary-color, $lightness: 30%)};
-  --ifm-color-primary-lightest: #{scale-color($dark-primary-color, $lightness: 45%)};
+  --ifm-color-primary-dark: #{scale-color($dark-primary-color, $lightness: -2%)};
+  --ifm-color-primary-darker: #{scale-color($dark-primary-color, $lightness: -4%)};
+  --ifm-color-primary-darkest: #{scale-color($dark-primary-color, $lightness: -6%)};
+  --ifm-color-primary-light: #{scale-color($dark-primary-color, $lightness: -70%)};
+  --ifm-color-primary-lighter: #{scale-color($dark-primary-color, $lightness: -80%)};
+  --ifm-color-primary-lightest: #{scale-color($dark-primary-color, $lightness: -90%)};
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 
-  --ifm-background-color: #{$dark-background-color};
-  --ifm-background-surface-color: #{$dark-background-surface-color};
-  --ifm-navbar-background-color: #{$dark-background-navbar-color};
-  --ifm-footer-background-color: #{$dark-background-navbar-color};
+  --ifm-background-color: #11111e;
+  --ifm-background-surface-color: #1b1b2e;
+  --ifm-navbar-background-color: #12122e;
+  --ifm-footer-background-color: #12122e;
 
   .footer {
     --ifm-footer-color: #fff;
   }
+}
+
+a {
+  font-weight: 500;
 }
 
 .footer {

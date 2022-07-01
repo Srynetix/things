@@ -1,23 +1,23 @@
 @import "../../css/variables.scss";
 
-$card-width: 350px;
+$card-width: 325px;
 $card-height: 225px;
 
 .card {
     width: $card-width;
     border: 2px solid;
-    border-color: scale-color($dark-background-surface-color, $lightness: -10%);
+    border-color: var(--ifm-color-primary-lighter);
     margin: 1rem;
     border-radius: 1rem;
     display: flex;
     flex-direction: column;
-    background-color: $dark-background-surface-color;
+    background-color: var(--ifm-color-primary-lightest);
     flex-shrink: 0;
     justify-content: space-between;
     transition: all 0.25s linear;
 
     &:hover {
-        box-shadow: #111 0 4px;
+        box-shadow: var(--ifm-color-primary-lighter) 0 4px;
         transform: translateY(-2px);
     }
 }
@@ -32,7 +32,7 @@ $card-height: 225px;
 .card-project-name {
     font-weight: bold;
     font-size: calc(var(--ifm-font-size-base) + 1pt);
-    color: #{$primary-color};
+    color: var(--ifm-color-primary);
 }
 
 .card-image {
@@ -43,7 +43,7 @@ $card-height: 225px;
 }
 
 .card-summary {
-    margin: 0 1rem;
+    margin: 1rem 1rem;
     text-align: center;
 }
 
