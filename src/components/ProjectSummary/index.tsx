@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import IconExternalLink from "@theme/IconExternalLink";
+import IconExternalLink from "@theme/Icon/ExternalLink";
 import styles from "./styles.module.scss";
 import mediumZoom from "medium-zoom";
 import { FaGithub } from "react-icons/fa";

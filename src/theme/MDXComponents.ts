@@ -1,5 +1,5 @@
 import MDXComponents from "@theme-original/MDXComponents";
-import IconExternalLink from "@theme-original/IconExternalLink";
+import IconExternalLink from "@theme-original/Icon/ExternalLink";
 
 import Back from "@site/src/components/Back";
 import PianoKeys from "@site/src/components/PianoKeys";

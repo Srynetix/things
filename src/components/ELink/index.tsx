@@ -1,5 +1,5 @@
 import React from "react";
-import IconExternalLink from "@theme/IconExternalLink";
+import IconExternalLink from "@theme/Icon/ExternalLink";
 
 interface Props {
   href: string;
