@@ -1,5 +1,5 @@
 {
-  "name": "docutest",
+  "name": "things",
   "version": "0.0.0",
   "private": true,
   "scripts": {
@@ -18,10 +18,10 @@
   },
   "dependencies": {
     "@cmfcmf/docusaurus-search-local": "^0.11.0",
-    "@docusaurus/core": "2.1.0",
-    "@docusaurus/plugin-pwa": "2.1.0",
-    "@docusaurus/preset-classic": "2.1.0",
-    "@docusaurus/theme-common": "2.1.0",
+    "@docusaurus/core": "2.3.1",
+    "@docusaurus/plugin-pwa": "2.3.1",
+    "@docusaurus/preset-classic": "2.3.1",
+    "@docusaurus/theme-common": "2.3.1",
     "@mdx-js/react": "^1.6.22",
     "clsx": "^1.1.1",
     "docusaurus-plugin-sass": "^0.2.2",
@@ -35,19 +35,19 @@
     "sass-loader": "^13.0.1"
   },
   "devDependencies": {
-    "@docusaurus/eslint-plugin": "2.1.0",
-    "@docusaurus/module-type-aliases": "2.1.0",
-    "@docusaurus/theme-classic": "2.1.0",
-    "@docusaurus/types": "2.1.0",
-    "@tsconfig/docusaurus": "^1.0.5",
+    "@docusaurus/eslint-plugin": "2.3.1",
+    "@docusaurus/module-type-aliases": "2.3.1",
+    "@docusaurus/theme-classic": "2.3.1",
+    "@docusaurus/types": "2.3.1",
+    "@tsconfig/docusaurus": "^1.0.6",
     "@types/node": "^18.0.0",
-    "@types/react": ">=16.8.0 <19.0.0",
+    "@types/react": "^18.0.14",
     "@typescript-eslint/eslint-plugin": "^5.30.0",
     "@typescript-eslint/parser": "^5.30.0",
     "eslint": "^8.18.0",
     "eslint-config-prettier": "^8.5.0",
     "prettier": "^2.7.1",
-    "typescript": "^4.6.4"
+    "typescript": "^4.7.4"
   },
   "resolutions": {
     "sass-loader": "^13.0.1"
