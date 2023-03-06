@@ -7,10 +7,26 @@ Here are my personal projects. As you can see, I mostly make games and game rela
 <CardCollection
   cards={[
     <ProjectCard
+      name="Type-Eat"
+      language="GDScript/Godot"
+      date="2023"
+      status="finished"
+      summary={
+        <>
+          Made for{" "}
+          <ELink href="https://ldjam.com/events/ludum-dare/52/type-eat">
+            Ludum Dare 52
+          </ELink>
+        </>
+      }
+      screenshots={[require("./games/assets/type-eat.gif").default]}
+      link="./games/type-eat"
+    />,
+    <ProjectCard
       name="One Minute Away"
       language="GDScript/Godot"
       date="2022"
-      status="active"
+      status="finished"
       summary={
         <>
           Made for{" "}
@@ -26,7 +42,7 @@ Here are my personal projects. As you can see, I mostly make games and game rela
       name="Time Lab"
       language="GDScript/Godot"
       date="2022"
-      status="active"
+      status="paused"
       summary={
         <>
           Made for{" "}
