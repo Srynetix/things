@@ -7,10 +7,52 @@ Here are my personal projects. As you can see, I mostly make games and game rela
 <CardCollection
   cards={[
     <ProjectCard
-      name="One Minute Away"
+      name="Type-Eat"
+      language="GDScript/Godot"
+      date="2023"
+      status="finished"
+      summary={
+        <>
+          Made for{" "}
+          <ELink href="https://ldjam.com/events/ludum-dare/52/type-eat">
+            Ludum Dare 52
+          </ELink>
+        </>
+      }
+      screenshots={[require("./games/assets/type-eat.gif").default]}
+      link="./games/type-eat"
+    />,
+    <ProjectCard
+      name="OseFPS"
       language="GDScript/Godot"
       date="2022"
       status="active"
+      summary={
+        <>
+          My attempt at recreating a fast FPS
+        </>
+      }
+      screenshots={[require("./games/assets/osefps.gif").default]}
+      link="./games/osefps"
+    />,
+    <ProjectCard
+      name="Bombertest"
+      language="GDScript/Godot"
+      date="2022"
+      status="paused"
+      summary={
+        <>
+          Bomberman-like clone with networking
+        </>
+      }
+      screenshots={[require("./games/assets/bombertest.gif").default]}
+      link="./games/bombertest"
+    />,
+    <ProjectCard
+      name="One Minute Away"
+      language="GDScript/Godot"
+      date="2022"
+      status="finished"
       summary={
         <>
           Made for{" "}
@@ -26,7 +68,7 @@ Here are my personal projects. As you can see, I mostly make games and game rela
       name="Time Lab"
       language="GDScript/Godot"
       date="2022"
-      status="active"
+      status="paused"
       summary={
         <>
           Made for{" "}
@@ -174,6 +216,14 @@ Here are my personal projects. As you can see, I mostly make games and game rela
 <CardCollection
   cards={[
     <ProjectCard
+      name="gdtoolkit"
+      language="Rust"
+      date="2023"
+      status="active"
+      summary={<>Command-line utility for Godot Engine 3.x</>}
+      link="./game-related/gdtoolkit"
+    />,
+    <ProjectCard
       name="sxgd: Srynetix' Godot Extensions"
       language="GDScript/Godot"
       date="2022"
@@ -205,6 +255,14 @@ Here are my personal projects. As you can see, I mostly make games and game rela
         require("./game-related/assets/nature-of-code.gif").default,
       ]}
       link="./game-related/godot-nature-of-code"
+    />,
+    <ProjectCard
+      name="gdpm"
+      language="Rust"
+      date="2019"
+      status="paused"
+      summary={<>A Godot Project Manager</>}
+      link="./applications/gdpm"
     />,
     <ProjectCard
       name="CHIP-8 Emulator"
@@ -241,10 +299,51 @@ Here are my personal projects. As you can see, I mostly make games and game rela
   ]}
 />
 
+## Audio-related stuff
+
+<CardCollection
+  cards={[
+    <ProjectCard
+      name="esfxr - extended sfxr"
+      language="Rust"
+      date="2023"
+      status="active"
+      summary={<>A sound generator inspired from DrPetter's sfxr</>}
+      screenshots={[require("./audio-related/assets/esfxr.gif").default]}
+      link="./audio-related/esfxr"
+    />,
+    <ProjectCard
+      name="ape - audio processing experiments"
+      language="Rust"
+      date="2022"
+      status="paused"
+      summary={<>My audio processing playground</>}
+      link="./audio-related/ape"
+    />
+  ]}
+/>
+
 ## Applications and tools
 
 <CardCollection
   cards={[
+    <ProjectCard
+      name="Spaghetti UI"
+      language="Python/TypeScript"
+      date="2022"
+      status="paused"
+      summary={<>A graphical frontend around Spaghetti</>}
+      screenshots={[require("./applications/assets/spaghetti-ui.gif").default]}
+      link="./applications/spaghetti-ui"
+    />,
+    <ProjectCard
+      name="Spaghetti"
+      language="Python"
+      date="2022"
+      status="paused"
+      summary={<>A Python module dependency tracer</>}
+      link="./applications/spaghetti"
+    />,
     <ProjectCard
       name="Things"
       language="TypeScript"
@@ -266,14 +365,6 @@ Here are my personal projects. As you can see, I mostly make games and game rela
         </>
       }
       link="./applications/github-scbot"
-    />,
-    <ProjectCard
-      name="gdpm"
-      language="Rust"
-      date="2019"
-      status="paused"
-      summary={<>A Godot Project Manager</>}
-      link="./applications/gdpm"
     />,
     <ProjectCard
       name="docknv"
