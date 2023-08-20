@@ -7,6 +7,36 @@ Here are my personal projects. As you can see, I mostly make games and game rela
 <CardCollection
   cards={[
     <ProjectCard
+      name="Unknown Car Game for the WASM-4"
+      language="Rust"
+      date="2023"
+      status="finished"
+      summary={
+        <>
+          My second game for the <ELink href="https://wasm4.org">WASM-4</ELink>{" "}
+          virtual console.
+        </>
+      }
+      screenshots={[
+        require("./games/assets/wasm4-unknown-car-game.gif").default,
+      ]}
+      link="./games/wasm4-unknown-car-game"
+    />,
+    <ProjectCard
+      name="Game of Life for the WASM-4"
+      language="Rust"
+      date="2023"
+      status="finished"
+      summary={
+        <>
+          My first "game" for the <ELink href="https://wasm4.org">WASM-4</ELink>{" "}
+          virtual console.
+        </>
+      }
+      screenshots={[require("./games/assets/wasm4-gol.gif").default]}
+      link="./games/wasm4-gol"
+    />,
+    <ProjectCard
       name="Wobbly Eats"
       language="GDScript/Godot"
       date="2023"
@@ -46,12 +76,8 @@ Here are my personal projects. As you can see, I mostly make games and game rela
       name="OseFPS"
       language="GDScript/Godot"
       date="2022"
-      status="active"
-      summary={
-        <>
-          My attempt at recreating a fast FPS
-        </>
-      }
+      status="paused"
+      summary={<>My attempt at recreating a fast FPS</>}
       screenshots={[require("./games/assets/osefps.gif").default]}
       link="./games/osefps"
     />,
@@ -60,11 +86,7 @@ Here are my personal projects. As you can see, I mostly make games and game rela
       language="GDScript/Godot"
       date="2022"
       status="paused"
-      summary={
-        <>
-          Bomberman-like clone with networking
-        </>
-      }
+      summary={<>Bomberman-like clone with networking</>}
       screenshots={[require("./games/assets/bombertest.gif").default]}
       link="./games/bombertest"
     />,
@@ -249,11 +271,47 @@ Here are my personal projects. As you can see, I mostly make games and game rela
 <CardCollection
   cards={[
     <ProjectCard
+      name="wasm4-tracker"
+      language="Rust"
+      date="2023"
+      status="paused"
+      summary={
+        <>
+          A simple code-only music tracker for the{" "}
+          <ELink href="https://wasm4.org">WASM-4</ELink> virtual console.
+        </>
+      }
+      link="./game-related/wasm4-tracker"
+    />,
+    <ProjectCard
+      name="wasm4-sx"
+      language="Rust"
+      date="2023"
+      status="paused"
+      summary={
+        <>
+          My wrapper around the <ELink href="https://wasm4.org">WASM-4</ELink>{" "}
+          virtual console.
+        </>
+      }
+      link="./game-related/wasm4-sx"
+    />,
+    <ProjectCard
+      name="raytracer"
+      language="Rust"
+      date="2023"
+      status="paused"
+      summary={<>A simple raytracer made in Rust.</>}
+      link="./game-related/raytracer"
+    />,
+    <ProjectCard
       name="gdtx"
       language="Rust"
       date="2023"
-      status="active"
-      summary={<>Godot Toolbox - Command-line utility for Godot Engine 3.x/4.x</>}
+      status="paused"
+      summary={
+        <>Godot Toolbox - Command-line utility for Godot Engine 3.x/4.x</>
+      }
       link="./game-related/gdtx"
     />,
     <ProjectCard
@@ -352,7 +410,7 @@ Here are my personal projects. As you can see, I mostly make games and game rela
       status="paused"
       summary={<>My audio processing playground</>}
       link="./audio-related/ape"
-    />
+    />,
   ]}
 />
 
