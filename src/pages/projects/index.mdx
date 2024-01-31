@@ -7,6 +7,24 @@ Here are my personal projects. As you can see, I mostly make games and game rela
 <CardCollection
   cards={[
     <ProjectCard
+      name="Happy Lockin'"
+      language="GDScript/Godot"
+      date="2023"
+      status="finished"
+      summary={
+        <>
+          Made for{" "}
+          <ELink href="https://ldjam.com/events/ludum-dare/54/happy-lockin">
+            Ludum Dare 54
+          </ELink>
+          <br />
+          Rated <b>164th</b>
+        </>
+      }
+      screenshots={[require("./games/assets/happy-lockin.gif").default]}
+      link="./games/happy-lockin"
+    />,
+    <ProjectCard
       name="Unknown Car Game for the WASM-4"
       language="Rust"
       date="2023"
@@ -418,6 +436,36 @@ Here are my personal projects. As you can see, I mostly make games and game rela
 
 <CardCollection
   cards={[
+    <ProjectCard
+      name="qx"
+      language="Rust"
+      date="2024"
+      status="active"
+      summary={
+        <>
+          A simple "productivity booster" tool to quickly run a set of actions.
+        </>
+      }
+      link="./applications/qx"
+    />,
+    <ProjectCard
+      name="sshh"
+      language="Rust"
+      date="2023"
+      status="paused"
+      summary={<>Simple SSH TUI using your SSH configuration file.</>}
+      screenshots={[require("./applications/assets/sshh.gif").default]}
+      link="./applications/sshh"
+    />,
+    <ProjectCard
+      name="timekipr"
+      language="Rust/TypeScript"
+      date="2023"
+      status="finished"
+      summary={<>A simple time-keeper app for meetings.</>}
+      screenshots={[require("./applications/assets/timekipr.gif").default]}
+      link="./applications/timekipr"
+    />,
     <ProjectCard
       name="Spaghetti UI"
       language="Python/TypeScript"

@@ -1,5 +1,6 @@
 import React from "react";
 import IconExternalLink from "@theme/Icon/ExternalLink";
+import Link from "@docusaurus/Link";
 
 interface Props {
   href: string;
@@ -7,10 +8,10 @@ interface Props {
 }
 
 const ELink = ({ children, href }: Props) => (
-  <a target="_blank" rel="noopener noreferrer" href={href}>
+  <Link to={href}>
     {children}
     <IconExternalLink />
-  </a>
+  </Link>
 );
 
 export default ELink;

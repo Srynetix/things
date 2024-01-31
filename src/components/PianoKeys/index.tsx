@@ -107,7 +107,7 @@ const PianoKeys = (props: Props) => {
         left: number,
         top: number,
         width: number,
-        height: number
+        height: number,
       ): boolean => {
         return (
           mouseX >= left &&
@@ -141,7 +141,7 @@ const PianoKeys = (props: Props) => {
           xPos,
           0,
           WHITE_KEY_WIDTH,
-          WHITE_KEY_HEIGHT
+          WHITE_KEY_HEIGHT,
         )
           ? HOVER_KEY_COLOR
           : color;
@@ -155,7 +155,7 @@ const PianoKeys = (props: Props) => {
           keyName,
           xPos + WHITE_KEY_WIDTH / 2,
           WHITE_KEY_TEXT_Y,
-          WHITE_KEY_WIDTH
+          WHITE_KEY_WIDTH,
         );
       };
 
@@ -175,7 +175,7 @@ const PianoKeys = (props: Props) => {
           xPos,
           0,
           BLACK_KEY_WIDTH,
-          BLACK_KEY_HEIGHT
+          BLACK_KEY_HEIGHT,
         )
           ? HOVER_KEY_COLOR
           : color;
