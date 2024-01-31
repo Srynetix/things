@@ -94,7 +94,9 @@ a {
 
   &:hover {
     border-bottom: 2px solid var(--ifm-color-primary);
-    transition: color 0.5s linear, border-bottom 0.5s linear;
+    transition:
+      color 0.5s linear,
+      border-bottom 0.5s linear;
   }
 }
 

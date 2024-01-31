@@ -1,8 +1,8 @@
 import React, { useEffect } from "react";
-import IconExternalLink from "@theme/Icon/ExternalLink";
 import styles from "./styles.module.scss";
 import mediumZoom from "medium-zoom";
 import { FaGithub } from "react-icons/fa";
+import ELink from "../ELink";
 
 interface Props {
   urls: string[];
@@ -33,15 +33,9 @@ const ProjectSummary = (props: Props) => {
           <div className={styles["card-field-value"]}>
             <div className={styles["card-field-urls"]}>
               {props.urls.map((url) => (
-                <a
-                  key={url}
-                  href={url}
-                  rel="noopener noreferrer"
-                  target="_blank"
-                >
+                <ELink key={url} href={url}>
                   {projectNameFromUrl(url)}
-                  <IconExternalLink />
-                </a>
+                </ELink>
               ))}
             </div>
           </div>
