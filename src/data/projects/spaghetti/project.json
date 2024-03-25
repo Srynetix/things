@@ -1,0 +1,11 @@
+{
+	"name": "spaghetti 🍝",
+	"technologies": ["Python"],
+	"repository": "https://github.com/Srynetix/spaghetti",
+	"creationDate": "2022-11-09",
+	"maintenanceStatus": "Stable",
+	"summary": "Trace module dependencies in a Python project.",
+	"published": true,
+	"kind": "App",
+	"appLink": "https://github.com/Srynetix/spaghetti/releases"
+}

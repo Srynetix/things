@@ -1,0 +1,11 @@
+{
+	"name": "Unknown Car Game for WASM-4",
+	"technologies": ["Rust", "WASM-4"],
+	"repository": "https://github.com/Srynetix/wasm4-unknown-car-game",
+	"creationDate": "2023-08-16",
+	"maintenanceStatus": "Stable",
+	"summary": "WASM-4 version of my prototype \"Unknown Car Game\".",
+	"published": true,
+	"kind": "Game",
+	"gameLink": "https://srynetix.github.io/wasm4-unknown-car-game/"
+}

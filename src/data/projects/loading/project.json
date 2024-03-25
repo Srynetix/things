@@ -1,0 +1,15 @@
+{
+	"name": "Loading...",
+	"technologies": ["Godot Engine", "GDScript"],
+	"repository": "https://github.com/Srynetix/loading",
+	"creationDate": "2019-10-06",
+	"maintenanceStatus": "Stable",
+	"summary": "A minimal game where you have to grow as big as possible before crashing to death.",
+	"published": true,
+	"kind": "JamGame",
+	"jamName": "Ludum Dare",
+	"jamEdition": "45",
+	"jamPageLink": "https://ldjam.com/events/ludum-dare/45/loading",
+	"jamGameLink": "https://srynetix.github.io/loading/",
+	"jamRank": null
+}

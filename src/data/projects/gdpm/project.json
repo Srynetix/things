@@ -1,0 +1,11 @@
+{
+	"name": "gdpm",
+	"technologies": ["Rust", "Godot Engine"],
+	"repository": "https://github.com/Srynetix/gdpm",
+	"creationDate": "2019-10-31",
+	"maintenanceStatus": "Stable",
+	"summary": "A Godot project manager: trying to fuse my love for Rust and Godot in one command-line app.",
+	"published": true,
+	"kind": "App",
+	"appLink": "https://github.com/Srynetix/gdpm/releases"
+}

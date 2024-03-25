@@ -1,0 +1,10 @@
+{
+	"name": "OpenTerra",
+	"technologies": ["Godot Engine", "C#"],
+	"repository": "https://github.com/Srynetix/openterra",
+	"creationDate": "2020-10-11",
+	"maintenanceStatus": "WIP",
+	"summary": "My attempt at a SubTerra open source clone.",
+	"published": true,
+	"kind": "Game"
+}

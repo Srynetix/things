@@ -1,0 +1,11 @@
+{
+	"name": "qx",
+	"technologies": ["Rust"],
+	"repository": "https://github.com/Srynetix/qx",
+	"creationDate": "2024-01-25",
+	"maintenanceStatus": "Active",
+	"summary": "A simple tool to quickly run a set of actions.",
+	"published": true,
+	"kind": "App",
+	"appLink": "https://github.com/Srynetix/qx/releases"
+}

@@ -1,0 +1,56 @@
+.app-project-filter-input {
+	width: 100%;
+
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap: var(--app-size-1);
+
+	&__input-wrapper {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+
+		position: relative;
+
+		flex-grow: 1;
+
+		&__input {
+			height: var(--app-size-4);
+			font-size: var(--app-font-size-0);
+
+			flex-grow: 1;
+
+			padding-right: var(--app-size-3);
+
+			border: var(--app-border-0);
+			border-radius: var(--app-size-0);
+
+			color: var(--app-text-primary-color);
+			background-color: var(--app-background-color);
+		}
+
+		&__clear {
+			position: absolute;
+			right: 0;
+
+			display: flex;
+			flex-direction: row;
+			align-items: center;
+
+			border: none;
+
+			color: var(--app-text-primary-color);
+			background-color: inherit;
+			cursor: pointer;
+
+			@include hover {
+				filter: var(--app-filter-hover);
+			}
+
+			&:active {
+				filter: var(--app-filter-active);
+			}
+		}
+	}
+}

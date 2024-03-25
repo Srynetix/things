@@ -1,0 +1,10 @@
+{
+	"name": "esfxr - extended sfxr",
+	"technologies": ["Rust", "DSP"],
+	"repository": "https://github.com/Srynetix/esfxr",
+	"creationDate": "2023-02-18",
+	"maintenanceStatus": "WIP",
+	"summary": "Toy implementation of the 'sfxr' app in Rust.",
+	"published": true,
+	"kind": "App"
+}

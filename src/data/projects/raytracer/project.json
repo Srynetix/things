@@ -1,0 +1,10 @@
+{
+	"name": "raytracer",
+	"technologies": ["Rust"],
+	"repository": "https://github.com/Srynetix/raytracer",
+	"creationDate": "2023-07-26",
+	"maintenanceStatus": "Stable",
+	"summary": "A simple raytracer implemented from the Ray Tracing in One Weekend series.",
+	"published": true,
+	"kind": "App"
+}

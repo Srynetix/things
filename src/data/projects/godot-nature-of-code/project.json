@@ -1,0 +1,11 @@
+{
+	"name": "Nature of Code in Godot Engine",
+	"technologies": ["Godot Engine", "C#"],
+	"repository": "https://github.com/Srynetix/godot-nature-of-code",
+	"creationDate": "2020-06-10",
+	"maintenanceStatus": "WIP",
+	"summary": "Implementation of the Nature of Code book using Godot Engine.",
+	"published": true,
+	"kind": "Game",
+	"gameLink": "https://srynetix.github.io/godot-nature-of-code"
+}

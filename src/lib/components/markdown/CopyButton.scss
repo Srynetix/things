@@ -1,0 +1,6 @@
+.app-copy-button {
+	&[data-toggled='true'] {
+		pointer-events: none;
+		color: green;
+	}
+}

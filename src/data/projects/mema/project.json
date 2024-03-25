@@ -1,0 +1,10 @@
+{
+	"name": "mema",
+	"technologies": ["Rust", "Svelte", "TypeScript"],
+	"repository": "https://github.com/Srynetix/mema",
+	"creationDate": "2024-03-01",
+	"maintenanceStatus": "Active",
+	"published": false,
+	"summary": "A lightweight web-driven media manager",
+	"kind": "App"
+}

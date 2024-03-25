@@ -1,0 +1,18 @@
+.app-back-button {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+
+	padding: 0 var(--app-size-2);
+
+	cursor: pointer;
+
+	@include hover {
+		filter: var(--app-filter-hover);
+	}
+
+	&:active {
+		filter: var(--app-filter-active);
+	}
+}

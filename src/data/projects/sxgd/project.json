@@ -1,0 +1,12 @@
+{
+	"name": "sxgd: Srynetix Godot Extensions",
+	"technologies": ["Godot Engine", "GDScript"],
+	"repository": "https://github.com/Srynetix/sxgd",
+	"creationDate": "2022-05-27",
+	"maintenanceStatus": "Stable",
+	"summary": "My own nodes and extensions for Godot Engine.",
+	"published": true,
+	"kind": "Framework",
+	"frameworkSampleLink": "https://srynetix.github.io/sxgd-kitchen-sink/main",
+	"frameworkDocLink": "https://srynetix.github.io/sxgd/"
+}

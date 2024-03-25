@@ -1,0 +1,11 @@
+{
+	"name": "things",
+	"technologies": ["TypeScript", "Svelte"],
+	"repository": "https://github.com/Srynetix/things",
+	"creationDate": "2024-02-20",
+	"maintenanceStatus": "Active",
+	"summary": "This website.",
+	"published": true,
+	"kind": "App",
+	"appLink": "https://things.denisbourge.me"
+}

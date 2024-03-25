@@ -1,0 +1,11 @@
+/***********
+ * Utilities
+ ***********/
+
+@mixin hover {
+	@media (hover: hover) and (pointer: fine) {
+		&:hover {
+			@content;
+		}
+	}
+}
