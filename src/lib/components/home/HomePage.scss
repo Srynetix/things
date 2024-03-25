@@ -1,0 +1,86 @@
+.app-home-page {
+	height: 100%;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+
+	&__top {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		gap: var(--app-size-1);
+
+		margin-bottom: var(--app-size-2);
+
+		&__title {
+			padding-top: var(--app-size-2);
+
+			font-size: var(--app-font-size-4);
+		}
+
+		&__subtitle {
+			font-size: var(--app-font-size-2);
+			text-align: center;
+		}
+	}
+
+	&__sections {
+		width: 100%;
+
+		display: flex;
+		flex-direction: column;
+		align-items: stretch;
+		justify-content: center;
+
+		padding: var(--app-size-1);
+
+		flex-wrap: wrap;
+
+		&__section {
+			min-width: var(--app-home-page-desktop-section-min-width);
+
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+
+			margin: var(--app-size-0) var(--app-size-2);
+			padding: var(--app-size-2);
+
+			border: var(--app-border-0);
+			border-radius: var(--app-size-1);
+
+			font-size: var(--app-font-size-2);
+			font-weight: var(--app-font-weight-2);
+			text-decoration: none;
+			text-align: center;
+
+			color: inherit;
+			background-color: var(--app-home-page-section-background-color);
+
+			user-select: none;
+			transition: filter var(--app-time-1) linear;
+
+			@include hover {
+				color: inherit;
+				border-color: var(--app-text-primary-color);
+				filter: var(--app-filter-hover);
+			}
+
+			&:active {
+				color: inherit;
+				filter: var(--app-filter-active);
+			}
+		}
+
+		@media screen and (min-width: $desktop-breakpoint) {
+			flex-direction: row;
+			gap: var(--app-size-2);
+
+			width: 60%;
+		}
+	}
+}

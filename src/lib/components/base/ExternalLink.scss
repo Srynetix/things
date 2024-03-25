@@ -1,0 +1,11 @@
+.app-external-link {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+
+	&__icon {
+		margin-left: calc(var(--app-size-0) * -1);
+		padding-bottom: var(--app-size-0);
+	}
+}

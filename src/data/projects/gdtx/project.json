@@ -1,0 +1,10 @@
+{
+	"name": "gdtx",
+	"technologies": ["Rust", "Godot Engine"],
+	"repository": "https://github.com/Srynetix/gdtx",
+	"creationDate": "2023-02-21",
+	"maintenanceStatus": "WIP",
+	"summary": "Godot Toolbox - Command-line utility for Godot Engine 3.x/4.x.",
+	"published": true,
+	"kind": "App"
+}

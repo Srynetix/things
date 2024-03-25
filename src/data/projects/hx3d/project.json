@@ -1,0 +1,11 @@
+{
+	"name": "hx3d Framework",
+	"technologies": ["C++"],
+	"repository": "https://github.com/Srynetix/hx3d-framework",
+	"creationDate": "2015-08-26",
+	"maintenanceStatus": "Abandoned",
+	"summary": "My own 2D/3D game framework.",
+	"published": true,
+	"kind": "Framework",
+	"frameworkDocLink": "http://srynetix.github.io/hx3d/"
+}

@@ -1,0 +1,11 @@
+{
+	"name": "GitHub SC Bot",
+	"technologies": ["Rust"],
+	"repository": "https://github.com/sharingcloud/github-scbot",
+	"creationDate": "2020-11-13",
+	"maintenanceStatus": "Stable",
+	"summary": "A custom GitHub Bot to manage SharingCloud development workflows.",
+	"published": true,
+	"kind": "App",
+	"appLink": "https://github.com/sharingcloud/github-scbot/releases"
+}

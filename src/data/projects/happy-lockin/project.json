@@ -1,0 +1,15 @@
+{
+	"name": "Happy Lockin'",
+	"technologies": ["Godot Engine", "GDScript"],
+	"repository": "https://github.com/Srynetix/happy-lockin",
+	"creationDate": "2023-10-01",
+	"maintenanceStatus": "Stable",
+	"summary": "Escape, if you can!",
+	"published": true,
+	"kind": "JamGame",
+	"jamName": "Ludum Dare",
+	"jamEdition": "54",
+	"jamPageLink": "https://ldjam.com/events/ludum-dare/54/happy-lockin",
+	"jamGameLink": "https://srynetix.github.io/happy-lockin/",
+	"jamRank": "164th"
+}

@@ -1,0 +1,169 @@
+$desktop-breakpoint: 800px;
+
+@mixin light-variables {
+	// Base colors
+	--app-text-primary-color: #222222;
+	--app-text-inverted-color: #dddddd;
+	--app-background-color: #e0e0e0;
+	--app-background-secondary-color: #b9b9b9;
+	--app-border-primary-color: #5f5f5f;
+	--app-button-toggled-color: #ffffff;
+
+	// Code variables
+	--app-code-inline-background-color: #bdbdbd;
+	--app-code-header-background-color: #999999;
+	--app-code-block-numbers-background-color: #585858;
+
+	// Top bar variables
+	--app-top-bar-background-color: #b1b1b1;
+
+	// Project variables
+	--app-project-card-background-color: rgba(66, 66, 66, 0.75);
+	--app-project-card-overlay-background-color: rgba(105, 105, 105, 0.5);
+	--app-project-link-background-color: rgb(49, 49, 49);
+	--app-project-tag-background-color: rgb(49, 49, 49);
+
+	// Slideshow variables
+	--app-slideshow-background-color: rgb(151, 151, 151);
+
+	// Scroll to top variables
+	--app-scroll-to-top-background-color: #202020;
+
+	// "Home page" variables
+	--app-home-page-section-background-color: #c2c2c2;
+}
+
+@mixin dark-variables {
+	// Base colors
+	--app-text-primary-color: #eeeeee;
+	--app-text-inverted-color: #000000;
+	--app-background-color: #272727;
+	--app-background-secondary-color: #202020;
+	--app-border-primary-color: #7e7e7e;
+	--app-button-toggled-color: #ffffff;
+
+	// Code variables
+	--app-code-inline-background-color: #000000;
+	--app-code-header-background-color: #525252;
+	--app-code-block-numbers-background-color: #363636;
+
+	// Top bar variables
+	--app-top-bar-background-color: #202020;
+
+	// Project variables
+	--app-project-card-background-color: rgb(50, 50, 50, 0.75);
+	--app-project-card-overlay-background-color: rgba(97, 97, 97, 0.5);
+	--app-project-link-background-color: rgb(59, 59, 59);
+	--app-project-tag-background-color: rgb(59, 59, 59);
+
+	// Slideshow variables
+	--app-slideshow-background-color: #202020;
+
+	// Scroll to top variables
+	--app-scroll-to-top-background-color: #202020;
+
+	// "Home page" variables
+	--app-home-page-section-background-color: #202020;
+}
+
+:root {
+	// Fonts
+	--app-default-font-size: 1.15rem;
+	--app-default-font-weight: 400;
+	--app-code-default-font-size: 0.85rem;
+
+	// Base border sizes
+	--app-border-size-0: 1px;
+	--app-border-size-1: 2px;
+	--app-border-size-2: 4px;
+
+	// Base borders
+	--app-border-0: var(--app-border-size-0) solid var(--app-border-primary-color);
+	--app-border-1: var(--app-border-size-1) solid var(--app-border-primary-color);
+
+	// Base font sizes
+	--app-font-size-0: 0.85rem;
+	--app-font-size-1: 1.25rem;
+	--app-font-size-2: 1.5rem;
+	--app-font-size-3: 2rem;
+	--app-font-size-4: 3rem;
+
+	// Base font weights
+	--app-font-weight-0: 200;
+	--app-font-weight-1: 400;
+	--app-font-weight-2: 600;
+
+	// Base sizes
+	--app-size-0: 0.25rem;
+	--app-size-1: 0.5rem;
+	--app-size-2: 1rem;
+	--app-size-3: 1.5rem;
+	--app-size-4: 2rem;
+
+	// Base times
+	--app-time-0: 0.05s;
+	--app-time-1: 0.1s;
+	--app-time-2: 0.2s;
+
+	// Base text shadow
+	--app-text-shadow-0: 1px 1px 1px black;
+
+	// Base filters
+	--app-filter-hover: contrast(50%);
+	--app-filter-active: contrast(25%);
+
+	// Top bar variables
+	--app-top-bar-height: 4rem;
+	--app-top-bar-margin: 0.5rem;
+	--app-top-bar-image-size: 32px;
+	--app-top-bar-image-url: url('../../data/assets/images/things.png'); // Relative path source is "src/lib/styles"
+
+	// Layout variables
+	--app-layout-content-mobile-padding: 1rem;
+	--app-layout-content-desktop-padding: 4rem;
+	--app-layout-footer-font-size: 0.9rem;
+
+	// Project variables
+	--app-project-card-desktop-width: 20rem;
+	--app-project-card-backdrop-filter: blur(2px);
+	--app-project-card-elements-z-index: 2;
+
+	// Scroll to top variables
+	--app-scroll-to-top-size: 4rem;
+	--app-scroll-to-top-z-index: 2;
+
+	// Markdown variables
+	--app-markdown-line-height: 1.5rem;
+
+	//////////
+	// Pages
+
+	// "About me" variables
+	--app-about-me-page-picture-size: 12.5rem;
+
+	// "Home page" variables
+	--app-home-page-desktop-section-min-width: 25vw;
+
+	// "Project page" variables
+	--app-project-page-background-height: 50vh;
+}
+
+html[data-theme='dark'] {
+	@include dark-variables;
+}
+
+html[data-theme='light'] {
+	@include light-variables;
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		@include dark-variables;
+	}
+}
+
+@media (prefers-color-scheme: light) {
+	:root {
+		@include light-variables;
+	}
+}

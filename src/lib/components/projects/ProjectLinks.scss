@@ -1,0 +1,43 @@
+.app-project-links {
+	width: 100%;
+
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	gap: var(--app-size-1);
+
+	text-align: center;
+	text-shadow: var(--app-text-shadow-0);
+
+	color: white;
+
+	&__link {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: center;
+		gap: var(--app-size-1);
+
+		padding: var(--app-size-1);
+
+		border: var(--app-border-0);
+		border-radius: var(--app-size-1);
+
+		color: inherit;
+		text-decoration: none;
+		background-color: var(--app-project-link-background-color);
+		transition: var(--app-time-1) linear all;
+
+		& .app-external-link__icon {
+			margin-left: calc(var(--app-size-1) * -1);
+		}
+
+		@include hover {
+			filter: var(--app-filter-hover);
+		}
+
+		&:active {
+			filter: var(--app-filter-active);
+		}
+	}
+}

@@ -1,0 +1,46 @@
+.app-scroll-to-top {
+	position: fixed;
+	right: var(--app-size-1);
+	bottom: var(--app-size-1);
+
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+
+	width: var(--app-scroll-to-top-size);
+	height: var(--app-scroll-to-top-size);
+
+	border: var(--app-border-0);
+	border-radius: var(--app-size-1);
+
+	color: white;
+	background-color: var(--app-scroll-to-top-background-color);
+
+	opacity: 0.55;
+
+	cursor: pointer;
+	transition: var(--app-time-1) linear all;
+	z-index: var(--app-scroll-to-top-z-index);
+
+	@include hover {
+		filter: var(--app-filter-hover);
+	}
+
+	&:active {
+		filter: var(--app-filter-active);
+	}
+
+	&--hidden {
+		opacity: 0;
+		visibility: hidden;
+	}
+
+	@media screen and (min-width: $desktop-breakpoint) {
+		right: calc(var(--app-size-2) * 1.5);
+		bottom: calc(var(--app-size-2) * 1.5);
+
+		width: calc(var(--app-scroll-to-top-size) * 1.5);
+		height: calc(var(--app-scroll-to-top-size) * 1.5);
+	}
+}

@@ -1,0 +1,11 @@
+{
+	"name": "Osef Fish",
+	"technologies": ["Godot Engine", "GDScript"],
+	"repository": "https://github.com/Srynetix/osef-fish",
+	"creationDate": "2018-04-23",
+	"maintenanceStatus": "Stable",
+	"summary": "Simple \"Flappy Bird\" clone.",
+	"published": true,
+	"kind": "Game",
+	"gameLink": "https://srynetix.github.io/osef-fish/"
+}

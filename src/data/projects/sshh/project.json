@@ -1,0 +1,11 @@
+{
+	"name": "sshh",
+	"technologies": ["Rust"],
+	"repository": "https://github.com/Srynetix/sshh",
+	"creationDate": "2023-10-10",
+	"maintenanceStatus": "Active",
+	"summary": "Simple SSH TUI using your SSH configuration file.",
+	"published": true,
+	"kind": "App",
+	"appLink": "https://github.com/Srynetix/sshh/releases"
+}

@@ -1,0 +1,11 @@
+{
+	"name": "OseFPS",
+	"technologies": ["Godot Engine", "GDScript"],
+	"repository": "https://github.com/Srynetix/osefps",
+	"creationDate": "2023-03-06",
+	"maintenanceStatus": "WIP",
+	"summary": "A simple fast FPS for training purposes.",
+	"published": true,
+	"kind": "Game",
+	"gameLink": ""
+}

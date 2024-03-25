@@ -1,0 +1,11 @@
+{
+	"name": "GitHub Notifier",
+	"technologies": ["TypeScript", "Svelte"],
+	"repository": "https://github.com/Srynetix/github-notifier",
+	"creationDate": "2024-02-08",
+	"maintenanceStatus": "Active",
+	"summary": "A simple and efficient view of your GitHub notifications, made in Svelte.",
+	"published": true,
+	"kind": "App",
+	"appLink": "https://srynetix.github.io/github-notifier/"
+}

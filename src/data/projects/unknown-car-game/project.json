@@ -1,0 +1,11 @@
+{
+	"name": "Unknown Car Game",
+	"technologies": ["Godot Engine", "GDScript"],
+	"repository": "https://github.com/Srynetix/unknown-car-game",
+	"creationDate": "2021-09-20",
+	"maintenanceStatus": "Stable",
+	"summary": "Simple top-down car game.",
+	"published": true,
+	"kind": "Game",
+	"gameLink": "https://srynetix.github.io/unknown-car-game"
+}

@@ -1,0 +1,11 @@
+{
+	"name": "timekipr",
+	"technologies": ["React", "Rust", "Tauri"],
+	"repository": "https://github.com/Srynetix/timekipr",
+	"creationDate": "2023-06-15",
+	"maintenanceStatus": "Stable",
+	"summary": "A simple time-keeper app for meetings.",
+	"published": true,
+	"kind": "App",
+	"appLink": "https://srynetix.github.io/timekipr"
+}

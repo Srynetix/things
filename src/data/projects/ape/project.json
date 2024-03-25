@@ -1,0 +1,10 @@
+{
+	"name": "ape (audio programming experiments)",
+	"technologies": ["Rust", "DSP"],
+	"repository": "https://github.com/Srynetix/ape",
+	"creationDate": "2022-10-17",
+	"maintenanceStatus": "Stable",
+	"summary": "A test project to get a grasp on the field of audio programming in general.",
+	"published": true,
+	"kind": "App"
+}

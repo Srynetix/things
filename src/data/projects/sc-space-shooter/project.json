@@ -1,0 +1,11 @@
+{
+	"name": "SC Space Shooter",
+	"technologies": ["Godot Engine", "GDScript"],
+	"repository": "https://github.com/Srynetix/sc-space-shooter",
+	"creationDate": "2020-01-08",
+	"maintenanceStatus": "Stable",
+	"summary": "Shoot rocks and enemy ships.",
+	"published": true,
+	"kind": "Game",
+	"gameLink": "https://srynetix.github.io/sc-space-shooter"
+}

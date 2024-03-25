@@ -1,0 +1,11 @@
+{
+	"name": "Spaghetti UI 🍝",
+	"technologies": ["Python", "React"],
+	"repository": "https://github.com/Srynetix/spaghetti-ui",
+	"creationDate": "2022-11-23",
+	"maintenanceStatus": "Stable",
+	"summary": "Web application around my 'spaghetti' tool.",
+	"published": true,
+	"kind": "App",
+	"appLink": "https://github.com/Srynetix/spaghetti-ui/releases"
+}

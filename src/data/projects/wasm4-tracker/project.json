@@ -1,0 +1,11 @@
+{
+	"name": "wasm4-tracker",
+	"technologies": ["Rust", "WASM-4"],
+	"repository": "https://github.com/Srynetix/wasm4-tracker",
+	"creationDate": "2023-08-10",
+	"maintenanceStatus": "WIP",
+	"summary": "Simple music tracker (code-only) for WASM-4.",
+	"published": true,
+	"kind": "App",
+	"appDocLink": "https://srynetix.github.io/wasm4-tracker/wasm4_tracker/"
+}

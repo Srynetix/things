@@ -1,0 +1,15 @@
+{
+	"name": "Deep Space Beat",
+	"technologies": ["Godot Engine", "GDScript"],
+	"repository": "https://github.com/Srynetix/deep-space-beat",
+	"creationDate": "2021-04-24",
+	"maintenanceStatus": "Stable",
+	"summary": "3D tunnel game with twists.",
+	"published": true,
+	"kind": "JamGame",
+	"jamName": "Ludum Dare",
+	"jamEdition": "48",
+	"jamPageLink": "https://ldjam.com/events/ludum-dare/48/deep-space-beat",
+	"jamGameLink": "https://srynetix.github.io/deep-space-beat/",
+	"jamRank": "239th"
+}

@@ -1,0 +1,11 @@
+{
+	"name": "Bombertest",
+	"technologies": ["Godot Engine", "GDScript"],
+	"repository": "https://github.com/Srynetix/bombertest",
+	"creationDate": "2022-08-19",
+	"maintenanceStatus": "WIP",
+	"summary": "Simple Bomberman-like clone, for training purposes.",
+	"published": true,
+	"kind": "Game",
+	"gameLink": "https://srynetix.github.io/bombertest/"
+}

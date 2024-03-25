@@ -1,0 +1,10 @@
+{
+	"name": "CHIP-8 Emulator",
+	"technologies": ["Rust", "CHIP-8"],
+	"repository": "https://github.com/Srynetix/chip8",
+	"creationDate": "2018-02-26",
+	"maintenanceStatus": "Stable",
+	"summary": "CHIP-8 emulator written in Rust.",
+	"published": true,
+	"kind": "App"
+}

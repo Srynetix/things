@@ -1,65 +1,61 @@
 {
-  "name": "things",
-  "version": "0.0.0",
-  "private": true,
-  "scripts": {
-    "docusaurus": "docusaurus",
-    "start": "docusaurus start",
-    "build": "docusaurus build",
-    "swizzle": "docusaurus swizzle",
-    "deploy": "docusaurus deploy",
-    "clear": "docusaurus clear",
-    "serve": "docusaurus serve",
-    "write-translations": "docusaurus write-translations",
-    "write-heading-ids": "docusaurus write-heading-ids",
-    "lint": "eslint . && tsc",
-    "fmt": "prettier . --write",
-    "typecheck": "tsc"
-  },
-  "dependencies": {
-    "@docusaurus/core": "3.1.1",
-    "@docusaurus/plugin-pwa": "3.1.1",
-    "@docusaurus/preset-classic": "3.1.1",
-    "@docusaurus/theme-common": "3.1.1",
-    "@mdx-js/react": "^3.0.0",
-    "clsx": "^2.1.0",
-    "docusaurus-plugin-sass": "^0.2.5",
-    "medium-zoom": "^1.1.0",
-    "prism-react-renderer": "^2.1.0",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-icons": "^4.10.1",
-    "sass": "^1.70.0",
-    "sass-loader": "^14.1.0"
-  },
-  "devDependencies": {
-    "@docusaurus/eslint-plugin": "3.1.1",
-    "@docusaurus/module-type-aliases": "3.1.1",
-    "@docusaurus/theme-classic": "3.1.1",
-    "@docusaurus/types": "3.1.1",
-    "@tsconfig/docusaurus": "^2.0.2",
-    "@types/node": "^20.0.0",
-    "@types/react": "^18.2.5",
-    "@typescript-eslint/eslint-plugin": "^6.20.0",
-    "@typescript-eslint/parser": "^6.20.0",
-    "eslint": "^8.56.0",
-    "eslint-config-prettier": "^9.1.0",
-    "prettier": "^3.2.4",
-    "typescript": "^5.3.3"
-  },
-  "engines": {
-    "node": ">=18.0.0"
-  },
-  "browserslist": {
-    "production": [
-      ">0.5%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  }
+	"name": "things",
+	"version": "0.0.0",
+	"private": true,
+	"scripts": {
+		"dev": "vite dev",
+		"build": "vite build",
+		"preview": "vite preview",
+		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
+		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
+		"test": "vitest",
+		"lint": "prettier --check . && eslint .",
+		"format": "prettier --write .",
+		"storybook": "storybook dev -p 6006",
+		"build-storybook": "storybook build"
+	},
+	"devDependencies": {
+		"@chromatic-com/storybook": "^1.2.25",
+		"@shikijs/transformers": "^1.1.7",
+		"@storybook/addon-essentials": "^8.0.4",
+		"@storybook/addon-interactions": "^8.0.4",
+		"@storybook/addon-links": "^8.0.4",
+		"@storybook/addon-svelte-csf": "^4.1.2",
+		"@storybook/blocks": "^8.0.4",
+		"@storybook/svelte": "^8.0.4",
+		"@storybook/sveltekit": "^8.0.4",
+		"@storybook/test": "^8.0.4",
+		"@sveltejs/adapter-static": "^3.0.1",
+		"@sveltejs/kit": "^2.0.0",
+		"@sveltejs/vite-plugin-svelte": "^3.0.0",
+		"@types/eslint": "8.56.0",
+		"@typescript-eslint/eslint-plugin": "^6.0.0",
+		"@typescript-eslint/parser": "^6.0.0",
+		"@vite-pwa/sveltekit": "^0.4.0",
+		"eslint": "^8.56.0",
+		"eslint-config-prettier": "^9.1.0",
+		"eslint-plugin-storybook": "^0.8.0",
+		"eslint-plugin-svelte": "^2.35.1",
+		"mdsvex": "^0.11.0",
+		"mdsvex-relative-images": "^1.0.3",
+		"prettier": "^3.1.1",
+		"prettier-plugin-svelte": "^3.1.2",
+		"rehype-autolink-headings": "^7.1.0",
+		"rehype-external-links": "^3.0.0",
+		"rehype-slug": "^6.0.0",
+		"remark-gemoji": "^8.0.0",
+		"sass": "^1.71.0",
+		"shiki": "^1.1.7",
+		"storybook": "^8.0.4",
+		"svelte": "^4.2.7",
+		"svelte-check": "^3.6.0",
+		"tslib": "^2.4.1",
+		"typescript": "^5.0.0",
+		"vite": "^5.0.3",
+		"vitest": "^1.2.0"
+	},
+	"type": "module",
+	"dependencies": {
+		"iconify-icon": "^2.0.0"
+	}
 }

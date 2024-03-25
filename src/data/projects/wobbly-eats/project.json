@@ -1,0 +1,15 @@
+{
+	"name": "Wobbly Eats",
+	"technologies": ["Godot Engine", "GDScript"],
+	"repository": "https://github.com/Srynetix/wobbly-eats",
+	"creationDate": "2023-05-01",
+	"maintenanceStatus": "Stable",
+	"summary": "Deliver meals with your bike without dropping the package!",
+	"published": true,
+	"kind": "JamGame",
+	"jamName": "Ludum Dare",
+	"jamEdition": "53",
+	"jamPageLink": "https://ldjam.com/events/ludum-dare/53/wobbly-eats",
+	"jamGameLink": "https://srynetix.github.io/wobbly-eats/",
+	"jamRank": "73rd"
+}

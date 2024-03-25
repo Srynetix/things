@@ -1,0 +1,14 @@
+{
+	"name": "Recursive Quest",
+	"technologies": ["Godot Engine", "GDScript"],
+	"repository": "https://github.com/Srynetix/recursive-quest",
+	"creationDate": "2018-10-12",
+	"maintenanceStatus": "Stable",
+	"summary": "A fast-paced shooter in a space pyramid.",
+	"published": true,
+	"kind": "JamGame",
+	"jamName": "Godot Wild Jam",
+	"jamEdition": "2",
+	"jamPageLink": "https://itch.io/jam/godot-wild-jam-2/rate/319210",
+	"jamRank": "8th"
+}

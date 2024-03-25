@@ -1,0 +1,10 @@
+{
+	"name": "Flags'n'Machines",
+	"technologies": ["Godot Engine", "C#"],
+	"repository": "https://github.com/Srynetix/flags-n-machines",
+	"creationDate": "2021-06-20",
+	"maintenanceStatus": "WIP",
+	"summary": "My upcoming open-source CTF driving game made with Godot Engine.",
+	"published": true,
+	"kind": "Game"
+}

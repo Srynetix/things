@@ -1,0 +1,11 @@
+{
+	"name": "Air Osef",
+	"technologies": ["Godot Engine", "GDScript"],
+	"repository": "https://github.com/Srynetix/air-osef",
+	"creationDate": "2018-05-21",
+	"maintenanceStatus": "Stable",
+	"summary": "Simple Air Hockey game.",
+	"published": true,
+	"kind": "Game",
+	"gameLink": "https://srynetix.github.io/air-osef/"
+}
