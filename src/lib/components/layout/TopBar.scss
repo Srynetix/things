@@ -1,4 +1,7 @@
 .app-top-bar {
+	position: fixed;
+	width: 100%;
+	z-index: var(--app-top-bar-z-index);
 	height: calc(var(--app-top-bar-height) - var(--app-size-2));
 
 	display: flex;
