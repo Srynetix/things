@@ -52,7 +52,7 @@
 			margin: var(--app-size-0) var(--app-size-2);
 			padding: var(--app-size-2);
 
-			border: var(--app-border-0);
+			border: none;
 			border-radius: var(--app-size-1);
 
 			font-size: var(--app-font-size-2);
@@ -82,7 +82,7 @@
 			flex-direction: row;
 			gap: var(--app-size-2);
 
-			width: 60%;
+			width: 80%;
 		}
 	}
 }

@@ -1,7 +1,9 @@
-Hello everyone, I'm **Denis BOURGE** (_@Srynetix_), a French developer who fell in love with programming while I was in school.
+Hello everyone, I'm **Denis BOURGE** ([_@Srynetix_](https://github.com/Srynetix)), a French developer who fell in love with programming while I was in school.
 I love making games and system stuff, open-source if possible.
 
 I'm currently **Software Architect** at [@SharingCloud].
+
+You can check my Resume/CV here: [Resume/CV](/resume).
 
 ## What's in here?
 

@@ -11,7 +11,7 @@
 	width: var(--app-scroll-to-top-size);
 	height: var(--app-scroll-to-top-size);
 
-	border: var(--app-border-0);
+	border: none;
 	border-radius: var(--app-size-1);
 
 	color: white;
@@ -22,6 +22,10 @@
 	cursor: pointer;
 	transition: var(--app-time-1) linear all;
 	z-index: var(--app-scroll-to-top-z-index);
+
+	& iconify-icon {
+		filter: drop-shadow(var(--app-drop-shadow-0));
+	}
 
 	@include hover {
 		filter: var(--app-filter-hover);
