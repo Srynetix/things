@@ -30,7 +30,14 @@
 			<span class="app-layout__bottom__name"> Denis Bourge </span>
 			&mdash;
 			<ExternalLink class="app-layout__bottom__line__link" href="https://github.com/Srynetix">
-				@Srynetix
+				<iconify-icon icon="octicon:mark-github-24"></iconify-icon> GitHub
+			</ExternalLink>
+			<ExternalLink
+				class="app-layout__bottom__line__link"
+				href="https://www.linkedin.com/in/denis-bourge-09676a110/"
+			>
+				<iconify-icon icon="ant-design:linkedin-filled"></iconify-icon>
+				LinkedIn
 			</ExternalLink>
 		</div>
 	</div>

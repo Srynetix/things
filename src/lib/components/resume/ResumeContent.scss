@@ -1,0 +1,29 @@
+.app-resume-content {
+	flex: 1;
+	border-left: 1px solid gray;
+
+	&__section {
+		&__title {
+			text-transform: uppercase;
+			text-align: center;
+			padding: 1rem 0;
+
+			background-color: var(--app-secondary-color);
+			font-weight: bold;
+		}
+
+		&__details {
+			text-align: left;
+			padding: 0.25rem 0.5rem;
+
+			ul {
+				list-style-type: '- ';
+				padding-left: 1rem;
+			}
+
+			> p {
+				text-decoration: underline;
+			}
+		}
+	}
+}

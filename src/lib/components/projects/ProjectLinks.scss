@@ -20,7 +20,7 @@
 
 		padding: var(--app-size-1);
 
-		border: var(--app-border-0);
+		border: none;
 		border-radius: var(--app-size-1);
 
 		color: inherit;
@@ -30,6 +30,10 @@
 
 		& .app-external-link__icon {
 			margin-left: calc(var(--app-size-1) * -1);
+		}
+
+		& iconify-icon {
+			filter: drop-shadow(var(--app-drop-shadow-0));
 		}
 
 		@include hover {
