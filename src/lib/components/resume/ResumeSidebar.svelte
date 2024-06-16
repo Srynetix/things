@@ -55,6 +55,41 @@
 		</div>
 	</div>
 
+	<div class="app-resume-sidebar__section">
+		<div class="app-resume-sidebar__section__title">Social</div>
+
+		<div class="app-resume-sidebar__section__details">
+			<ul class="app-resume-icon-list">
+				<li>
+					<iconify-icon icon="octicon:mark-github-24" noobserver></iconify-icon>
+					<a href="https://github.com/Srynetix" target="_blank" rel="noreferrer noopener nofollow">
+						Srynetix
+					</a>
+				</li>
+				<li>
+					<iconify-icon icon="mdi:linkedin" noobserver></iconify-icon>
+					<a
+						href="https://www.linkedin.com/in/denis-bourge-09676a110/"
+						target="_blank"
+						rel="noreferrer noopener nofollow"
+					>
+						denis-bourge-09676a110
+					</a>
+				</li>
+				<li>
+					<iconify-icon icon="mdi:web" noobserver></iconify-icon>
+					<a
+						href="https://things.denisbourge.me"
+						target="_blank"
+						rel="noreferrer noopener nofollow"
+					>
+						things.denisbourge.me
+					</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+
 	<div class="app-resume-sidebar__qrcode">
 		<QR logo={thingsLogo} width="125" shape="circle" data="https://things.denisbourge.me" />
 	</div>
