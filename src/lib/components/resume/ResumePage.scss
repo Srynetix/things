@@ -133,6 +133,9 @@
 		&__right {
 			width: 200px;
 			padding-right: 1rem;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
 
 			border-left: 1px solid gray;
 
@@ -148,7 +151,7 @@
 					justify-content: stretch;
 					gap: 2px;
 
-					padding: 2px 0;
+					padding: 0.45rem 0;
 
 					a {
 						color: inherit;

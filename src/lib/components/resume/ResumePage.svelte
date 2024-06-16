@@ -50,16 +50,6 @@
 						<li>
 							<iconify-icon icon="octicon:mail-24" noobserver></iconify-icon>bourge.denis@gmail.com
 						</li>
-						<li>
-							<iconify-icon icon="octicon:mark-github-24" noobserver></iconify-icon><a
-								href="https://www.github.com/Srynetix">@Srynetix</a
-							>
-						</li>
-						<li>
-							<iconify-icon icon="mdi:web" noobserver></iconify-icon><a
-								href="https://things.denisbourge.me">things.denisbourge.me</a
-							>
-						</li>
 					</ul>
 				</div>
 			</div>
