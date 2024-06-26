@@ -7,7 +7,9 @@
 
 <button
 	{...$$restProps}
-	class={['app-icon-button', $$props.class].filter((c) => c).join(' ')}
+	class={['p-1 text-inherit flex flex-col items-center justify-center', $$props.class]
+		.filter((c) => c)
+		.join(' ')}
 	on:click
 >
 	<iconify-icon {icon} width="1rem" observer="false"></iconify-icon>

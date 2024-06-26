@@ -42,7 +42,10 @@
 </script>
 
 <div
-	class="app-theme-selector"
+	class="
+		flex flex-row items-center justify-center
+		px-4 m-hover-filter
+	"
 	role="button"
 	tabindex="0"
 	on:keypress={() => (theme = switchNextTheme())}

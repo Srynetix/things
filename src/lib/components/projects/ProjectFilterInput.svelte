@@ -6,16 +6,38 @@
 	}
 </script>
 
-<div class="app-project-filter-input">
+<div
+	class="
+	w-full
+	flex flex-row items-center gap-2
+"
+>
 	<span title="You can filter by name or by tag">Filter: </span>
-	<div class="app-project-filter-input__input-wrapper">
+	<div
+		class="
+			relative
+			flex flex-row items-center grow
+		"
+	>
 		<input
-			class="app-project-filter-input__input-wrapper__input"
+			class="
+				h-6
+				text-sm
+				grow
+				pr-2
+				rounded-sm
+				dark:bg-slate-800
+				bg-slate-300
+			"
 			type="text"
 			bind:value={currentFilter}
 		/>
 		<button
-			class="app-project-filter-input__input-wrapper__clear"
+			class="
+				relative right-0
+				flex flex-row items-center
+				px-1
+			"
 			title="Clear filter"
 			on:click={clearFilter}
 		>

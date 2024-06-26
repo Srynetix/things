@@ -12,11 +12,29 @@
 	}
 </script>
 
-<div class="app-code-header" data-wrap={lineWrapping.toString()}>
-	<div class="app-code-header__language">
+<div
+	class="
+		c-header
+		w-full
+		flex flex-row items-center justify-between
+		rounded-t-lg
+		py-2 px-2
+		dark:bg-slate-700 bg-slate-300
+	"
+	data-wrap={lineWrapping.toString()}
+>
+	<div
+		class="
+		text-lg font-medium uppercase
+	"
+	>
 		{language}
 	</div>
-	<div class="app-code-header__buttons">
+	<div
+		class="
+		flex flex-row gap-1
+	"
+	>
 		<CopyButton {content} />
 		<IconToggleButton
 			title="Toggle ligne wrapping"
@@ -26,3 +44,9 @@
 		/>
 	</div>
 </div>
+
+<style>
+	.c-header[data-wrap='true'] + :global(pre) {
+		white-space: pre-wrap;
+	}
+</style>

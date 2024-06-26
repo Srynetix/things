@@ -23,7 +23,10 @@
 </script>
 
 <IconToggleButton
-	class="app-copy-button"
+	class="
+		data-[toggled=true]:pointer-events-none
+		data-[toggled=true]:text-green-500
+	"
 	title="Copy to clipboard"
 	toggled={copied}
 	{icon}

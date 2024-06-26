@@ -12,52 +12,112 @@
 	export let project: Project;
 </script>
 
-<Slideshow class="app-project-card" images={project.screenshots}>
-	<div class="app-project-card__overlay"></div>
-
-	<a
-		id={project.slug}
-		href="/projects/{project.slug}"
-		class="app-project-card__title"
-		title="Click here to see more info about the project"
+<div
+	class="
+	mx-2
+	shadow-lg
+"
+>
+	<Slideshow
+		class="
+			relative
+			flex flex-col items-center justify-between
+			border-none rounded-lg
+			text-slate-100
+			bg-cover bg-slate-800
+			transition
+		"
+		images={project.screenshots}
 	>
-		{project.name}
+		<div
+			class="
+			absolute w-full h-full rounded-lg
+			backdrop-blur-sm
+		"
+		></div>
 
-		<div class="app-project-card__kind">
+		<a
+			id={project.slug}
+			href="/projects/{project.slug}"
+			class="
+				w-full pt-3 z-10
+				text-center font-semibold
+				rounded-t-lg
+				text-shadow shadow-black
+				bg-black/25
+			"
+			title="Click here to see more info about the project"
+		>
+			{project.name}
+
+			<div
+				class="
+				w-full z-10
+				pb-4
+				text-sm
+			"
+			>
+				{#if project.kind == 'JamGame'}
+					Jam Game
+				{:else}
+					{project.kind}
+				{/if}
+			</div>
+		</a>
+
+		<div
+			class="
+			w-full z-10
+			p-8
+			text-center
+			text-inherit
+			text-shadow
+			shadow-black
+		"
+		>
+			{project.summary}
+			<br />
+
 			{#if project.kind == 'JamGame'}
-				Jam Game
-			{:else}
-				{project.kind}
+				<br />
+				Submission for
+				<br />
+				<ExternalLink
+					href={project.jamPageLink}
+					class="
+						font-semibold
+						text-inherit
+						gap-1
+					"
+				>
+					{project.jamName} edition #{project.jamEdition}.</ExternalLink
+				>
+				{#if project.jamRank}
+					Ranked {project.jamRank}.
+				{:else}
+					Not ranked.
+				{/if}
 			{/if}
 		</div>
-	</a>
 
-	<div class="app-project-card__summary">
-		{project.summary}
-		<br />
+		<div
+			class="
+			w-full flex wrap items-center justify-center gap-1 pb-2 z-10
+		"
+		>
+			{#each project.technologies as technology}
+				<ProjectCardTag tag={technology} on:click={() => dispatch('tag:click', technology)} />
+			{/each}
+		</div>
 
-		{#if project.kind == 'JamGame'}
-			<br />
-			Submission for
-			<br />
-			<ExternalLink href={project.jamPageLink} class="app-project-card__inner-link"
-				>{project.jamName} edition #{project.jamEdition}.</ExternalLink
-			>
-			{#if project.jamRank}
-				Ranked {project.jamRank}.
-			{:else}
-				Not ranked.
-			{/if}
-		{/if}
-	</div>
-
-	<div class="app-project-card__tags">
-		{#each project.technologies as technology}
-			<ProjectCardTag tag={technology} on:click={() => dispatch('tag:click', technology)} />
-		{/each}
-	</div>
-
-	<div class="app-project-card__actions">
-		<ProjectLinks {project} />
-	</div>
-</Slideshow>
+		<div
+			class="
+			w-full p-2 rounded-b-lg
+			z-10
+			bg-black/25
+		"
+		>
+			<ProjectLinks {project} />
+		</div>
+	</Slideshow>
+</div>

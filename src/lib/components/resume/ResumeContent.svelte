@@ -1,8 +1,16 @@
-<div class="app-resume-content">
-	<div class="app-resume-content__section">
-		<div class="app-resume-content__section__title">Professional Experiences</div>
+<script lang="ts">
+	import ResumeContentTitle from './ResumeContentTitle.svelte';
+	import ResumeContentDetails from './ResumeContentDetails.svelte';
+</script>
 
-		<div class="app-resume-content__section__details">
+<div
+	class="
+		flex flex-col border-solid border-l border-l-slate-400 dark:border-l-slate-700
+	"
+>
+	<div>
+		<ResumeContentTitle>Professional Experiences</ResumeContentTitle>
+		<ResumeContentDetails>
 			<p>2016, now &mdash; SharingCloud (Boulogne-Billancourt, France)</p>
 			<ul>
 				<li>
@@ -65,13 +73,12 @@
 				<li>Working on the horizontal architecture of the Supercloud european project.</li>
 				<li>Writing Python tools and working with Infrastructure as Code.</li>
 			</ul>
-		</div>
+		</ResumeContentDetails>
 	</div>
 
-	<div class="app-resume-content__section">
-		<div class="app-resume-content__section__title">Studies</div>
-
-		<div class="app-resume-content__section__details">
+	<div>
+		<ResumeContentTitle>Studies</ResumeContentTitle>
+		<ResumeContentDetails>
 			<ul>
 				<li>
 					2016 &mdash; Major of a Master in Computer Science (<i
@@ -80,18 +87,17 @@
 					>) &mdash; Université d'Orléans, France
 				</li>
 			</ul>
-		</div>
+		</ResumeContentDetails>
 	</div>
 
-	<div class="app-resume-content__section">
-		<div class="app-resume-content__section__title">Personal Projects</div>
-
-		<div class="app-resume-content__section__details">
+	<div>
+		<ResumeContentTitle>Personal Projects</ResumeContentTitle>
+		<ResumeContentDetails>
 			<ul>
 				<li>GitHub Notifier: A tool to view manage your GitHub notifications, made in Svelte.</li>
 				<li>A few games for the Ludum Dare game jam since 2019 (two times a year since then).</li>
 				<li>...and more things on my personal site.</li>
 			</ul>
-		</div>
+		</ResumeContentDetails>
 	</div>
 </div>

@@ -1,6 +1,6 @@
 root = true
 
-[*.{ts,js,json,svelte,scss,md}]
+[*.{ts,js,json,svelte,css,md}]
 indent_size = 2
 indent_style = tab
 end_of_line = lf

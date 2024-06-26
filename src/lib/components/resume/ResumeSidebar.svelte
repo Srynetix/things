@@ -4,11 +4,10 @@
 	import thingsLogo from '$/data/assets/images/things.png';
 </script>
 
-<div class="app-resume-sidebar">
-	<div class="app-resume-sidebar__section">
-		<div class="app-resume-sidebar__section__title">Programming skills</div>
-
-		<div class="app-resume-sidebar__section__details">
+<div class="flex flex-col">
+	<div>
+		<div class="c-title">Programming skills</div>
+		<div class="c-details">
 			<p>Languages</p>
 			<ul>
 				<li>{resumeData.programmingSkills.languages.join(', ')}</li>
@@ -31,11 +30,10 @@
 		</div>
 	</div>
 
-	<div class="app-resume-sidebar__section">
-		<div class="app-resume-sidebar__section__title">Hobbies</div>
-
-		<div class="app-resume-sidebar__section__details">
-			<ul class="app-resume-icon-list">
+	<div>
+		<div class="c-title">Hobbies</div>
+		<div class="c-details">
+			<ul class="c-icon-list">
 				{#each resumeData.hobbies as hobby}
 					<li><iconify-icon icon={hobby.icon} noobserver></iconify-icon> {hobby.text}</li>
 				{/each}
@@ -43,11 +41,10 @@
 		</div>
 	</div>
 
-	<div class="app-resume-sidebar__section">
-		<div class="app-resume-sidebar__section__title">Misc.</div>
-
-		<div class="app-resume-sidebar__section__details">
-			<ul class="app-resume-icon-list">
+	<div>
+		<div class="c-title">Misc.</div>
+		<div class="c-details">
+			<ul class="c-icon-list">
 				{#each resumeData.misc as entry}
 					<li><iconify-icon icon={entry.icon} noobserver></iconify-icon> {entry.text}</li>
 				{/each}
@@ -55,11 +52,10 @@
 		</div>
 	</div>
 
-	<div class="app-resume-sidebar__section">
-		<div class="app-resume-sidebar__section__title">Social</div>
-
-		<div class="app-resume-sidebar__section__details">
-			<ul class="app-resume-icon-list">
+	<div>
+		<div class="c-title">Social</div>
+		<div class="c-details">
+			<ul class="c-icon-list">
 				<li>
 					<iconify-icon icon="octicon:mark-github-24" noobserver></iconify-icon>
 					<a href="https://github.com/Srynetix" target="_blank" rel="noreferrer noopener nofollow">
@@ -90,7 +86,54 @@
 		</div>
 	</div>
 
-	<div class="app-resume-sidebar__qrcode">
+	<div class="flex grow flex-col items-center justify-end mb-4">
 		<QR logo={thingsLogo} width="125" shape="circle" data="https://things.denisbourge.me" />
 	</div>
 </div>
+
+<style>
+	.c-title {
+		@apply dark:bg-indigo-950 bg-indigo-300 py-3;
+
+		text-transform: uppercase;
+		text-align: center;
+
+		font-weight: bold;
+	}
+
+	.c-details {
+		@apply my-2 px-2;
+
+		text-align: left;
+
+		> p {
+			text-decoration: underline;
+		}
+
+		> ul {
+			list-style-type: none;
+			padding-left: 1rem;
+		}
+	}
+
+	.c-icon-list {
+		list-style: none;
+
+		li {
+			display: flex;
+			flex-direction: row;
+			align-items: center;
+			justify-content: stretch;
+			gap: 2px;
+			margin: 0;
+
+			iconify-icon {
+				margin-top: 0.5rem;
+			}
+
+			a {
+				color: inherit;
+			}
+		}
+	}
+</style>
