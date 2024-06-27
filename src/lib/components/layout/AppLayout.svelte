@@ -1,5 +1,4 @@
 <script lang="ts">
-	import ExternalLink from '$lib/components/base/ExternalLink.svelte';
 	import TopBar from '$lib/components/layout/TopBar.svelte';
 	import ScrollToTop from '$lib/components/layout/ScrollToTop.svelte';
 	import BottomLink from '$lib/components/layout/BottomLink.svelte';

@@ -1,6 +1,5 @@
 <script lang="ts">
 	import type { Project } from '$lib/domain/Project';
-	import ExternalLink from '$lib/components/base/ExternalLink.svelte';
 	import ProjectLink from '$lib/components/projects/ProjectLink.svelte';
 
 	export let project: Project;

@@ -25,7 +25,9 @@
 	<h1 class="self-start">Resume / CV</h1>
 
 	<div class="overflow-x-auto overflow-y-hidden mb-4" bind:this={container}>
-		<div class="c-resume">
+		<div
+			class="c-resume bg-slate-100 dark:bg-slate-900 border rounded border-slate-400 dark:border-slate-700"
+		>
 			<ResumeHeader />
 			<div class="flex flex-row grow">
 				<ResumeSidebar />
@@ -56,8 +58,6 @@
 	}
 
 	.c-resume {
-		@apply bg-slate-100 dark:bg-slate-900 border rounded border-slate-400 dark:border-slate-700;
-
 		display: flex;
 		flex-direction: column;
 

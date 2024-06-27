@@ -2,7 +2,7 @@
 	<slot />
 </div>
 
-<style>
+<style lang="postcss">
 	.c-details :global(p) {
 		@apply my-2;
 	}

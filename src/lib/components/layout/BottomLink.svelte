@@ -1,8 +1,8 @@
 <script lang="ts">
 	import ExternalLink from '$lib/components/base/ExternalLink.svelte';
 
-	export let href;
-	export let icon;
+	export let href: string;
+	export let icon: string | undefined = undefined;
 </script>
 
 <ExternalLink
