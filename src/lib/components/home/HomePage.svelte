@@ -1,15 +1,33 @@
-<div class="app-home-page">
-	<div class="app-home-page__glue"></div>
-	<div class="app-home-page__top">
-		<div class="app-home-page__top__title">Things.</div>
-		<div class="app-home-page__top__subtitle">Things I made, things I like, things I'm making.</div>
+<script>
+	import HomeLink from './HomeLink.svelte';
+</script>
+
+<div
+	class="
+	flex flex-col grow items-center justify-between self-center
+"
+>
+	<div></div>
+	<div
+		class="
+		flex flex-col items-center justify-center gap-3
+	"
+	>
+		<div class="pt-2 text-5xl">Things.</div>
+		<div class="text-2xl text-center px-4">Things I made, things I like, things I'm making.</div>
 	</div>
-	<div class="app-home-page__sections">
-		<a class="app-home-page__sections__section" href="/projects">Projects</a>
-		<a class="app-home-page__sections__section" href="/blog">Blog</a>
-		<a class="app-home-page__sections__section" href="/guides">Guides</a>
-		<a class="app-home-page__sections__section" href="/experiments">Experiments</a>
-		<a class="app-home-page__sections__section" href="/me">About me</a>
+	<div
+		class="
+		w-full
+		flex flex-col items-stretch justify-center
+		p-1
+	"
+	>
+		<HomeLink href="/projects">Projects</HomeLink>
+		<HomeLink href="/blog">Blog</HomeLink>
+		<HomeLink href="/guides">Guides</HomeLink>
+		<HomeLink href="/experiments">Experiments</HomeLink>
+		<HomeLink href="/me">About me</HomeLink>
 	</div>
-	<div class="app-home-page__glue"></div>
+	<div></div>
 </div>

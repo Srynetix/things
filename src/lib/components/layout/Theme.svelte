@@ -42,11 +42,14 @@
 </script>
 
 <div
-	class="app-theme-selector"
+	class="
+		flex flex-row items-center justify-center
+		px-4 m-hover-filter
+	"
 	role="button"
 	tabindex="0"
 	on:keypress={() => (theme = switchNextTheme())}
 	on:click={() => (theme = switchNextTheme())}
 >
-	<iconify-icon icon={iconName} title={iconTitle} width="2rem" observer="false"></iconify-icon>
+	<iconify-icon icon={iconName} title={iconTitle} width="2rem" noobserver></iconify-icon>
 </div>

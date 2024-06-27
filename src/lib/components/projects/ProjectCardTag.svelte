@@ -7,12 +7,17 @@
 </script>
 
 <div
-	class="app-project-card-tag"
+	class="
+		flex flex-row items-center justify-center
+		p-1 rounded-lg text-shadow shadow-black
+		bg-slate-700
+		m-hover-filter
+	"
 	role="button"
 	tabindex="0"
 	on:click={() => dispatch('click')}
 	on:keypress={() => dispatch('click')}
 	title="Click here to add tag to current filter"
 >
-	<span class="app-project-card-tag__hash">#</span>{tag}
+	<span class="self-center text-sm">#</span>{tag}
 </div>

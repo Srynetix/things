@@ -1,6 +1,6 @@
 <script lang="ts">
-	import img from '$/data/assets/images/me.jpg';
 	import ResumeContent from './ResumeContent.svelte';
+	import ResumeHeader from './ResumeHeader.svelte';
 	import ResumeSidebar from './ResumeSidebar.svelte';
 
 	import FileSaver from 'file-saver';
@@ -21,49 +21,50 @@
 	}
 </script>
 
-<div class="app-resume-page">
-	<h1 class="app-page__title">Resume / CV</h1>
+<div class="c-page">
+	<h1 class="self-start">Resume / CV</h1>
 
-	<div class="app-resume-container" bind:this={container}>
-		<div class="app-resume">
-			<div class="app-resume__header">
-				<div class="app-resume__header__left">
-					<img src={img} alt="me" />
-				</div>
-
-				<div class="app-resume__header__middle">
-					<div class="app-resume__header__middle__name">Denis BOURGE</div>
-					<div class="app-resume__header__middle__title">Passionate Software Engineer</div>
-					<div class="app-resume__header__middle__subtitle">
-						Looking for inspiring problems to solve with an open mind and a desire to never stop
-						learning.
-					</div>
-				</div>
-
-				<div class="app-resume__header__right">
-					<ul>
-						<li>
-							<iconify-icon icon="majesticons:map-marker" noobserver
-							></iconify-icon>Saint-Pierre-des-Corps, France
-						</li>
-						<li><iconify-icon icon="fe:phone" noobserver></iconify-icon>06.01.24.97.25</li>
-						<li>
-							<iconify-icon icon="octicon:mail-24" noobserver></iconify-icon>bourge.denis@gmail.com
-						</li>
-					</ul>
-				</div>
-			</div>
-			<div class="app-resume__body">
+	<div class="overflow-x-auto overflow-y-hidden mb-4" bind:this={container}>
+		<div
+			class="c-resume bg-slate-100 dark:bg-slate-900 border rounded border-slate-400 dark:border-slate-700"
+		>
+			<ResumeHeader />
+			<div class="flex flex-row grow">
 				<ResumeSidebar />
 				<ResumeContent />
 			</div>
 		</div>
 	</div>
 
-	<div class="app-resume-page__bottom">
-		<button class="app-resume-page__bottom__download-btn" on:click={exportCv}>
-			<iconify-icon icon="mdi:download"></iconify-icon>
+	<div class="flex flex-col items-center justify-center">
+		<button
+			class="p-2 border border-slate-700 rounded-lg flex flex-row items-center justify-center gap-1"
+			on:click={exportCv}
+		>
+			<iconify-icon icon="mdi:download" noobserver></iconify-icon>
 			Download
 		</button>
 	</div>
 </div>
+
+<style>
+	@media (min-width: 794px) {
+		.c-page {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+		}
+	}
+
+	.c-resume {
+		display: flex;
+		flex-direction: column;
+
+		font-size: 13px;
+
+		/* A4 at 96 PP */
+		width: 794px;
+		height: 1123px;
+	}
+</style>

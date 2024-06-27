@@ -186,10 +186,10 @@
 	});
 </script>
 
-<div class="app-piano-keys">
-	<canvas bind:this={canvas} class="app-piano-keys__canvas"></canvas>
+<div class="text-center">
+	<canvas bind:this={canvas} class="m-auto"></canvas>
 	{#if caption}
-		<div class="app-piano-keys__caption">
+		<div class="mb-2 text-center italic">
 			{caption}
 		</div>
 	{/if}

@@ -6,16 +6,18 @@
 	export let post: Post;
 </script>
 
-<div class="app-post-page">
-	<div class="app-post-page__header">
-		<div class="app-post-page__header__title">
+<div class="flex flex-col">
+	<div class="flex flex-col">
+		<h1 class="mb-0">
 			{#if post.draft}🚧{/if}
 			{post.title}
+		</h1>
+		<div class="text-sm">
+			{post.date.toLocaleDateString()}
 		</div>
-		<div class="app-post-page__header__date">{post.date.toLocaleDateString()}</div>
 	</div>
 
-	<main class="app-post-page__content">
+	<main>
 		<MarkdownLayout>
 			<svelte:component this={post.content} />
 		</MarkdownLayout>

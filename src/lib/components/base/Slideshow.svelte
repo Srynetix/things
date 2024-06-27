@@ -31,7 +31,7 @@
 </script>
 
 <div
-	class={['app-slideshow', $$props.class].filter((c) => c).join(' ')}
+	class={['bg-no-repeat bg-center', $$props.class].filter((c) => c).join(' ')}
 	style:background-image={imageToShow ? `url(${imageToShow})` : null}
 >
 	<slot />

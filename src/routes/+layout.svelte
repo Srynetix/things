@@ -1,5 +1,5 @@
 <script lang="ts">
-	import '$lib/styles/index.scss';
+	import '$lib/styles/index.css';
 	import 'iconify-icon';
 
 	import AppLayout from '$/lib/components/layout/AppLayout.svelte';

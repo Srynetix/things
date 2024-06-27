@@ -5,17 +5,39 @@
 	export let posts: Post[];
 </script>
 
-<main class="app-post-list">
+<main
+	class="
+	flex flex-col gap-3 p-2
+"
+>
 	{#each posts as post (post.slug)}
-		<div class="app-post-list__item">
-			<a class="app-post-list__item__link" href="/{category}/{post.slug}">
-				<span class="app-post-list__item__title">
+		<div
+			class="
+			transition
+			border-l-2 border-l-transparent pl-2
+			hover:translate-x-2
+			dark:hover:border-l-slate-100 hover:border-l-slate-900
+			dark:active:border-l-slate-100 active:border-l-slate-900
+		"
+		>
+			<a
+				class="
+				flex flex-col
+				text-inherit
+			"
+				href="/{category}/{post.slug}"
+			>
+				<span
+					class="
+					font-semibold
+				"
+				>
 					{#if post.draft}🚧{/if}
 					{post.title}
 				</span>
-				<span class="app-post-list__item__date">{new Date(post.date).toLocaleDateString()}</span>
-				<span class="app-post-list__item__summary">{post.summary}</span>
-				<span class="app-post-list__item__tags">Tags: {post.tags.join(', ')}</span>
+				<span class="text-xs">{new Date(post.date).toLocaleDateString()}</span>
+				<span>{post.summary}</span>
+				<span class="text-xs">Tags: {post.tags.join(', ')}</span>
 			</a>
 		</div>
 	{/each}

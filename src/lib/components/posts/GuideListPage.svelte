@@ -5,8 +5,9 @@
 	export let posts: Post[];
 </script>
 
-<h1 class="app-page__title">Guides</h1>
+<div>
+	<h1>Guides</h1>
+	<p>Here you can find my guides.</p>
 
-<p>Here you can find my guides.</p>
-
-<PostList category={PostCategory.Guides} {posts} />
+	<PostList category={PostCategory.Guides} {posts} />
+</div>

@@ -16,6 +16,6 @@
 	});
 </script>
 
-<div class="app-project-markdown">
+<div class="c-markdown-container">
 	<slot />
 </div>

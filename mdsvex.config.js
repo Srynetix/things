@@ -58,7 +58,7 @@ const config = defineConfig({
 				target: '_blank',
 				content: {
 					type: 'text',
-					value: '<iconify-icon icon="octicon:link-external-16" observer="false"></iconify-icon>'
+					value: '<iconify-icon icon="octicon:link-external-16" noobserver></iconify-icon>'
 				}
 			}
 		],

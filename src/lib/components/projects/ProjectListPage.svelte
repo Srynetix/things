@@ -67,43 +67,51 @@
 	$: filteredProjectCount = computeProjectsCount(filteredProjectsPerYear);
 </script>
 
-<h1 class="app-page__title">Projects</h1>
+<div>
+	<h1>Projects</h1>
 
-<p>
-	Here you can view
-	{#if projectCount !== filteredProjectCount}
-		<b>{filteredProjectCount}</b> of my <b>{projectCount}</b> projects.
-	{:else}
-		my <b>{projectCount}</b> projects.
-	{/if}
-	<br />
-	Click on a <b>project name</b> to see more information about it.
-</p>
+	<p>
+		Here you can view
+		{#if projectCount !== filteredProjectCount}
+			<b>{filteredProjectCount}</b> of my <b>{projectCount}</b> projects.
+		{:else}
+			my <b>{projectCount}</b> projects.
+		{/if}
+		<br />
+		Click on a <b>project name</b> to see more information about it.
+	</p>
 
-<ProjectFilterInput bind:currentFilter />
+	<ProjectFilterInput bind:currentFilter />
 
-<div class="app-project-list-page__items">
-	{#each filteredProjectsPerYear as entry (entry.year)}
-		<div class="app-project-list-page__items__year">
-			<div class="app-project-list-page__items__year__year">{entry.year}</div>
-			<div class="app-project-list-page__items__year__count">
-				{entry.projects.length}
+	<div
+		class="
+		w-full
+		flex flex-col items-center justify-center gap-4
+		my-4
+	"
+	>
+		{#each filteredProjectsPerYear as entry (entry.year)}
+			<div class="self-start">
+				<div class="text-3xl">{entry.year}</div>
+				<div class="text-md">
+					{entry.projects.length}
 
-				{#if filteredProjectCount != projectCount}
-					filtered
-				{/if}
+					{#if filteredProjectCount != projectCount}
+						filtered
+					{/if}
 
-				{#if entry.projects.length == 1}
-					project
-				{:else}
-					projects
-				{/if}
+					{#if entry.projects.length == 1}
+						project
+					{:else}
+						projects
+					{/if}
+				</div>
 			</div>
-		</div>
-		<div class="app-project-list-page__items__cards">
-			{#each entry.projects as project (project.slug)}
-				<ProjectCard {project} on:tag:click={(e) => addTagToCurrentFilter(e.detail)} />
-			{/each}
-		</div>
-	{/each}
+			<div class="flex flex-col gap-8 w-full">
+				{#each entry.projects as project (project.slug)}
+					<ProjectCard {project} on:tag:click={(e) => addTagToCurrentFilter(e.detail)} />
+				{/each}
+			</div>
+		{/each}
+	</div>
 </div>

@@ -2,7 +2,7 @@ import type { Preview } from '@storybook/svelte';
 import { themes } from '@storybook/theming';
 
 import 'iconify-icon';
-import '../src/lib/styles/index.scss';
+import '../src/lib/styles/index.css';
 
 const preview: Preview = {
 	parameters: {

@@ -29,17 +29,16 @@
 </script>
 
 <div
-	class="app-back-button"
+	class="
+		flex flex-row items-center justify-center
+		px-4 m-hover-filter
+	"
 	role="button"
 	tabindex="0"
 	on:keypress={() => handleBackButton()}
 	on:click={() => handleBackButton()}
 	style:visibility={pathname === '/' ? 'hidden' : null}
 >
-	<iconify-icon
-		width="2rem"
-		icon="octicon:chevron-up-16"
-		title="Go to the parent page"
-		observer="false"
+	<iconify-icon width="2rem" icon="octicon:chevron-up-16" title="Go to the parent page" noobserver
 	></iconify-icon>
 </div>

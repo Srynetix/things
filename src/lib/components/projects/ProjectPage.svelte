@@ -7,31 +7,31 @@
 	export let project: Project;
 </script>
 
-<div class="app-project-page">
-	<div class="app-project-page__header">
-		<div class="app-project-page__header__title">{project.name}</div>
-		<div class="app-project-page__header__date">
+<div class="flex flex-col gap-2 grow">
+	<div class="flex flex-col my-4">
+		<div class="text-2xl font-bold">{project.name}</div>
+		<div class="text-sm">
 			{new Date(project.creationDate).toLocaleDateString()}
 		</div>
 	</div>
 
-	<div class="app-project-page__summary">
+	{#if project.screenshots.length > 0}
+		<Slideshow class="w-full h-64 bg-contain" images={project.screenshots} />
+	{/if}
+
+	<div class="mb-2 italic text-center">
 		{project.summary}
 	</div>
 
-	{#if project.screenshots.length > 0}
-		<Slideshow class="app-project-page__background" images={project.screenshots} />
-	{/if}
-
 	{#if project.mainMarkdownData}
-		<div class="app-project-page__content">
+		<div class="w-full self-start grow">
 			<MarkdownLayout>
 				<svelte:component this={project.mainMarkdownData} />
 			</MarkdownLayout>
 		</div>
 	{/if}
 
-	<div class="app-project-page__links">
+	<div class="w-full my-4">
 		<ProjectLinks {project} />
 	</div>
 </div>
