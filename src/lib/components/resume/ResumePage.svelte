@@ -1,6 +1,6 @@
 <script lang="ts">
-	import img from '$/data/assets/images/me.jpg';
 	import ResumeContent from './ResumeContent.svelte';
+	import ResumeHeader from './ResumeHeader.svelte';
 	import ResumeSidebar from './ResumeSidebar.svelte';
 
 	import FileSaver from 'file-saver';
@@ -24,39 +24,9 @@
 <div class="c-page">
 	<h1 class="self-start">Resume / CV</h1>
 
-	<div class="c-container" bind:this={container}>
+	<div class="overflow-x-auto overflow-y-hidden mb-4" bind:this={container}>
 		<div class="c-resume">
-			<div class="c-resume-header">
-				<div class="flex items-center pl-2">
-					<img src={img} alt="me" />
-				</div>
-
-				<div class="flex flex-col items-center justify-center grow">
-					<div class="text-lg">Denis BOURGE</div>
-					<div class="mb-1">Passionate Software Engineer</div>
-					<div class="text-xs text-center w-72">
-						Looking for inspiring problems to solve with an open mind and a desire to never stop
-						learning.
-					</div>
-				</div>
-
-				<div
-					class="flex flex-col justify-center pr-2 w-52 border-l border-l-slate-400 dark:border-l-slate-700"
-				>
-					<ul class="p-0 m-0">
-						<li class="c-right-li">
-							<iconify-icon icon="majesticons:map-marker" noobserver
-							></iconify-icon>Saint-Pierre-des-Corps, France
-						</li>
-						<li class="c-right-li">
-							<iconify-icon icon="fe:phone" noobserver></iconify-icon>06.01.24.97.25
-						</li>
-						<li class="c-right-li">
-							<iconify-icon icon="octicon:mail-24" noobserver></iconify-icon>bourge.denis@gmail.com
-						</li>
-					</ul>
-				</div>
-			</div>
+			<ResumeHeader />
 			<div class="flex flex-row grow">
 				<ResumeSidebar />
 				<ResumeContent />
@@ -85,12 +55,6 @@
 		}
 	}
 
-	.c-container {
-		overflow-x: auto;
-		overflow-y: hidden;
-		margin-bottom: 1rem;
-	}
-
 	.c-resume {
 		@apply bg-slate-100 dark:bg-slate-900 border rounded border-slate-400 dark:border-slate-700;
 
@@ -102,17 +66,5 @@
 		/* A4 at 96 PP */
 		width: 794px;
 		height: 1123px;
-	}
-
-	.c-resume-header {
-		@apply flex flex-row border-b dark:border-slate-700 border-slate-400;
-
-		img {
-			@apply w-32 rounded-lg m-1;
-		}
-	}
-
-	.c-right-li {
-		@apply list-none flex flex-row items-center justify-stretch gap-1 py-1;
 	}
 </style>
