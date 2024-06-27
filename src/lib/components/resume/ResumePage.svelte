@@ -39,7 +39,7 @@
 			class="p-2 border border-slate-700 rounded-lg flex flex-row items-center justify-center gap-1"
 			on:click={exportCv}
 		>
-			<iconify-icon icon="mdi:download"></iconify-icon>
+			<iconify-icon icon="mdi:download" noobserver></iconify-icon>
 			Download
 		</button>
 	</div>

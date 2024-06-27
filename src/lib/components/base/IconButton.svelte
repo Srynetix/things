@@ -12,5 +12,5 @@
 		.join(' ')}
 	on:click
 >
-	<iconify-icon {icon} width="1rem" observer="false"></iconify-icon>
+	<iconify-icon {icon} width="1rem" noobserver></iconify-icon>
 </button>

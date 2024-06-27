@@ -51,5 +51,5 @@
 	on:keypress={() => (theme = switchNextTheme())}
 	on:click={() => (theme = switchNextTheme())}
 >
-	<iconify-icon icon={iconName} title={iconTitle} width="2rem" observer="false"></iconify-icon>
+	<iconify-icon icon={iconName} title={iconTitle} width="2rem" noobserver></iconify-icon>
 </div>

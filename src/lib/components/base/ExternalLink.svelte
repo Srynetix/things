@@ -10,5 +10,5 @@
 	rel="noreferrer noopener nofollow"
 >
 	<slot />
-	<iconify-icon class="-ml-1 pb-1" icon="octicon:link-external-16" observer="false"></iconify-icon>
+	<iconify-icon class="-ml-1 pb-1" icon="octicon:link-external-16" noobserver></iconify-icon>
 </a>

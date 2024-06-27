@@ -41,7 +41,7 @@
 			title="Clear filter"
 			on:click={clearFilter}
 		>
-			<iconify-icon icon="octicon:x-16" width="1rem" observer="false"></iconify-icon>
+			<iconify-icon icon="octicon:x-16" width="1rem" noobserver></iconify-icon>
 		</button>
 	</div>
 </div>

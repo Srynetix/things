@@ -13,7 +13,7 @@
 	{href}
 >
 	{#if icon}
-		<iconify-icon {icon} class="-mb-1 -mr-1"></iconify-icon>
+		<iconify-icon {icon} class="-mb-1 -mr-1" noobserver></iconify-icon>
 	{/if}
 	<slot />
 </ExternalLink>

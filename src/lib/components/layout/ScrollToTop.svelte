@@ -27,6 +27,5 @@
 	on:click={scrollToTop}
 	title="Scroll to top"
 >
-	<iconify-icon icon="octicon:arrow-up-16" width="2rem" height="2rem" observer="false">
-	</iconify-icon>
+	<iconify-icon icon="octicon:arrow-up-16" width="2rem" height="2rem" noobserver> </iconify-icon>
 </button>
