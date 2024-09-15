@@ -1,5 +1,6 @@
 <script>
 	import HomeLink from './HomeLink.svelte';
+	import myPhoto from '$/data/assets/images/me.jpg';
 </script>
 
 <div
@@ -16,10 +17,13 @@
 		<div class="pt-2 text-5xl">Things.</div>
 		<div class="text-2xl text-center px-4">Things I made, things I like, things I'm making.</div>
 	</div>
+	<div>
+		<img class="self-center m-2 rounded-3xl w-48" src={myPhoto} alt="Me" />
+	</div>
 	<div
 		class="
 		w-full
-		flex flex-col items-stretch justify-center
+		flex flex-col lg:flex-row items-stretch justify-center gap-2
 		p-1
 	"
 	>

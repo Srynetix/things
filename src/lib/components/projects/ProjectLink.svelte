@@ -10,11 +10,11 @@
 	{title}
 	class="
 		flex flex-row items-center justify-center
-		gap-2 p-2
+		gap-2 p-1
 		rounded-lg
 		text-shadow shadow-black
-		bg-slate-700
-		text-slate-100
+		bg-zinc-900
+		text-zinc-100
 	"
 >
 	<slot />

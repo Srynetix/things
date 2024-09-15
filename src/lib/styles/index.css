@@ -19,11 +19,8 @@
 
 		padding: 0;
 		margin: 0;
-	}
 
-	body {
-		color: var(--app-text-primary-color);
-		background-color: var(--app-background-color);
+		font-size: 18px;
 	}
 
 	button {
@@ -31,32 +28,31 @@
 	}
 
 	a {
-		@apply text-inherit
-			m-hover-filter;
+		@apply text-inherit m-hover-filter;
 	}
 
 	kbd {
-		@apply px-1 rounded-md dark:bg-black bg-slate-300;
+		@apply px-1 rounded-md dark:bg-black bg-zinc-300;
 	}
 
 	h1 {
-		@apply text-3xl my-2 font-semibold;
+		@apply text-3xl my-8 font-semibold;
 	}
 
 	h2 {
-		@apply text-2xl my-2 font-semibold;
+		@apply text-2xl my-8 font-semibold;
 	}
 
 	h3 {
-		@apply text-xl my-2 font-semibold;
+		@apply text-xl my-8 font-semibold;
 	}
 
 	h4 {
-		@apply text-lg my-2 font-semibold;
+		@apply text-lg my-8 font-semibold;
 	}
 
 	p {
-		@apply my-4;
+		@apply my-6;
 	}
 
 	ul {
@@ -85,8 +81,8 @@
 			> p {
 				@apply pl-2
 					my-3
-					border-l-2 border-solid border-slate-400
-					text-slate-600 dark:text-slate-400;
+					border-l-2 border-solid border-zinc-400
+					text-zinc-600 dark:text-zinc-400;
 			}
 		}
 
@@ -96,7 +92,7 @@
 
 		p {
 			> code {
-				@apply px-1 rounded-md dark:bg-black bg-slate-300;
+				@apply px-1 rounded-md dark:bg-black bg-zinc-300;
 			}
 
 			> img {
@@ -142,8 +138,9 @@
 				}
 
 				&[data-line-numbers='false'] {
-					@apply py-1
-						pl-2;
+					.line {
+						@apply pl-1;
+					}
 				}
 
 				&[data-line-numbers='true'] {
@@ -170,10 +167,6 @@
 	.m-hover-filter {
 		@apply cursor-pointer
 			transition ease-linear duration-100
-			hover:contrast-50 active:contrast-75;
-	}
-
-	.m-border-1 {
-		border-width: 1px;
+			hover:brightness-75 active:contrast-75;
 	}
 }

@@ -4,7 +4,7 @@
 	"repository": "https://github.com/Srynetix/wobbly-eats",
 	"creationDate": "2023-05-01",
 	"maintenanceStatus": "Stable",
-	"summary": "Deliver meals with your bike without dropping the package!",
+	"summary": "Deliver meals with your bike!",
 	"published": true,
 	"kind": "JamGame",
 	"jamName": "Ludum Dare",

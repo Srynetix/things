@@ -7,7 +7,7 @@ export default {
 	theme: {
 		extend: {
 			textShadow: {
-				DEFAULT: '0 0 3px var(--tw-shadow-color)'
+				DEFAULT: '0px 0px 2px var(--tw-shadow-color)'
 			}
 		},
 		fontFamily: {

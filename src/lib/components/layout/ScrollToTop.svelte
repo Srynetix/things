@@ -19,8 +19,8 @@
 		z-20
 		border-none
 		rounded-full
-		bg-indigo-300
-		dark:bg-indigo-950
+		bg-zinc-200
+		dark:bg-zinc-900
 	"
 	class:invisible={scrollY == 0}
 	class:opacity-0={scrollY == 0}

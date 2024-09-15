@@ -8,7 +8,8 @@
 <div
 	class="
 	w-full
-	flex flex-col wrap gap-2
+	flex flex-row flex-wrap gap-2
+	justify-center
 	text-center text-shadow shadow-black
 "
 >

@@ -19,7 +19,7 @@
 		flex flex-row items-center justify-between
 		rounded-t-lg
 		py-2 px-2
-		dark:bg-slate-700 bg-slate-300
+		dark:bg-zinc-700 bg-zinc-300
 	"
 	data-wrap={lineWrapping.toString()}
 >

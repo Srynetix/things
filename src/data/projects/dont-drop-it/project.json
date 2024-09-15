@@ -4,7 +4,7 @@
 	"repository": "https://github.com/Srynetix/dont-drop-it",
 	"creationDate": "2021-10-03",
 	"maintenanceStatus": "Stable",
-	"summary": "2D skill/puzzle game where you have to destroy a bomb before it does itself.",
+	"summary": "A game where you destroy a bomb before it does itself.",
 	"published": true,
 	"kind": "JamGame",
 	"jamName": "Ludum Dare",

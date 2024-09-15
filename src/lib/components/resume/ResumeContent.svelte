@@ -5,7 +5,7 @@
 
 <div
 	class="
-		flex flex-col border-solid border-l border-l-slate-400 dark:border-l-slate-700
+		flex flex-col border-solid border-l border-l-zinc-400 dark:border-l-zinc-700
 	"
 >
 	<div>
@@ -58,9 +58,6 @@
 						<li>
 							Creation of a development machine for SharingCloud developers, based on our official
 							installer.
-						</li>
-						<li>
-							Creation of a tool around Docker and Docker Compose to manage and compose deployments.
 						</li>
 					</ul>
 					<br />

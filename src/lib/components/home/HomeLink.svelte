@@ -5,10 +5,15 @@
 <a
 	class="
 		flex flex-col items-center justify-center
-		mx-2 my-1 p-3 rounded-lg
+		py-1
+		lg:w-48
+		rounded-lg
 		text-2xl text-inherit font-semibold no-underline
 		select-none
-		bg-indigo-200 dark:bg-indigo-950
+		underline-offset-3
+		transition-all
+		hover:underline
+		focus:underline
 	"
 	{href}
 >

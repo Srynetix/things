@@ -91,7 +91,7 @@
 	"
 	>
 		{#each filteredProjectsPerYear as entry (entry.year)}
-			<div class="self-start">
+			<div class="w-full text-center border-t border-b py-2 my-2 border-zinc-900">
 				<div class="text-3xl">{entry.year}</div>
 				<div class="text-md">
 					{entry.projects.length}
@@ -107,7 +107,7 @@
 					{/if}
 				</div>
 			</div>
-			<div class="flex flex-col gap-8 w-full">
+			<div class="flex flex-col lg:flex-wrap lg:flex-row justify-center gap-3 w-full">
 				{#each entry.projects as project (project.slug)}
 					<ProjectCard {project} on:tag:click={(e) => addTagToCurrentFilter(e.detail)} />
 				{/each}

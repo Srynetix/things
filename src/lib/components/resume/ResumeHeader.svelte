@@ -4,7 +4,7 @@
 	import ResumeIconListEntry from './ResumeIconListEntry.svelte';
 </script>
 
-<div class="flex flex-row border-b dark:border-slate-700 border-slate-400">
+<div class="flex flex-row border-b dark:border-zinc-700 border-zinc-400">
 	<div class="flex items-center pl-2">
 		<img class="w-32 rounded-lg m-1" src={img} alt="me" />
 	</div>
@@ -18,7 +18,7 @@
 	</div>
 
 	<div
-		class="flex flex-col justify-center pr-2 w-52 border-l border-l-slate-400 dark:border-l-slate-700"
+		class="flex flex-col justify-center pr-2 w-52 border-l border-l-zinc-400 dark:border-l-zinc-700"
 	>
 		<ResumeIconList class="justify-around">
 			<ResumeIconListEntry icon="majesticons:map-marker">
