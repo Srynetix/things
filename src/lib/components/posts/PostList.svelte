@@ -16,8 +16,8 @@
 			transition
 			border-l-2 border-l-transparent pl-2
 			hover:translate-x-2
-			dark:hover:border-l-slate-100 hover:border-l-slate-900
-			dark:active:border-l-slate-100 active:border-l-slate-900
+			dark:hover:border-l-zinc-100 hover:border-l-zinc-900
+			dark:active:border-l-zinc-100 active:border-l-zinc-900
 		"
 		>
 			<a

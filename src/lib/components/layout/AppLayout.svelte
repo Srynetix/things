@@ -8,7 +8,7 @@
 	export let url: string;
 </script>
 
-<TopBar />
+<TopBar hidden={url == '/'} />
 
 <div
 	class="
@@ -19,8 +19,8 @@
 	{#key url}
 		<div
 			class="
-				w-full h-full max-w-screen-sm
-				px-2 mt-12
+				w-full h-full max-w-screen-lg
+				px-4 mt-12
 				flex flex-col grow
 			"
 			in:fade={{ duration: 100 }}

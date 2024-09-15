@@ -1,6 +1,6 @@
 {
 	"name": "Game of Life for Nintendo Switch",
-	"technologies": ["C", "Nintendo Switch", "Homebrew"],
+	"technologies": ["C", "Switch", "Homebrew"],
 	"repository": "https://github.com/Srynetix/libnx-gol",
 	"creationDate": "2018-05-18",
 	"maintenanceStatus": "Stable",

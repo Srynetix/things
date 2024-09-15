@@ -1,0 +1,11 @@
+{
+	"name": "prbot-py",
+	"technologies": ["Python", "FastAPI"],
+	"repository": "https://github.com/Srynetix/prbot-py",
+	"creationDate": "2024-07-31",
+	"maintenanceStatus": "Active",
+	"summary": "Rewrite of the github-scbot in Python.",
+	"published": true,
+	"kind": "App",
+	"appLink": "https://github.com/Srynetix/prbot-py/releases"
+}

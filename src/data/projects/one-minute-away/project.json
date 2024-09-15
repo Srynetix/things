@@ -4,7 +4,7 @@
 	"repository": "https://github.com/Srynetix/one-minute-away",
 	"creationDate": "2022-10-02",
 	"maintenanceStatus": "Stable",
-	"summary": "2D platformer game where you punch boxes and tries to save the world.",
+	"summary": "Punch boxes and try to save the world.",
 	"published": true,
 	"kind": "JamGame",
 	"jamName": "Ludum Dare",

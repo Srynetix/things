@@ -10,7 +10,6 @@
 	class="
 		flex flex-row items-center justify-center
 		p-1 rounded-lg text-shadow shadow-black
-		bg-slate-700
 		m-hover-filter
 	"
 	role="button"
@@ -19,5 +18,6 @@
 	on:keypress={() => dispatch('click')}
 	title="Click here to add tag to current filter"
 >
-	<span class="self-center text-sm">#</span>{tag}
+	<span class="self-center text-sm">#</span>
+	<span class="underline">{tag}</span>
 </div>

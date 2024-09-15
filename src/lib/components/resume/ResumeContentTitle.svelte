@@ -2,8 +2,8 @@
 	class="
 	uppercase text-center py-3
 	font-bold
-	bg-indigo-300
-	dark:bg-indigo-950
+	bg-zinc-300
+	dark:bg-zinc-950
 "
 >
 	<slot />

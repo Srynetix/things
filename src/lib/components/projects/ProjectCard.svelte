@@ -14,8 +14,10 @@
 
 <div
 	class="
-	mx-2
 	shadow-lg
+	w-64
+	h-96
+	self-center
 "
 >
 	<Slideshow
@@ -23,8 +25,8 @@
 			relative
 			flex flex-col items-center justify-between
 			border-none rounded-lg
-			text-slate-100
-			bg-cover bg-slate-800
+			text-zinc-100
+			bg-cover bg-zinc-900
 			transition
 		"
 		images={project.screenshots}
@@ -32,7 +34,8 @@
 		<div
 			class="
 			absolute w-full h-full rounded-lg
-			backdrop-blur-sm
+			backdrop-blur-lg
+			bg-black/25
 		"
 		></div>
 
@@ -68,11 +71,14 @@
 		<div
 			class="
 			w-full z-10
-			p-8
+			justify-center
+			px-2
+			py-8
+			overflow-hidden
 			text-center
-			text-inherit
 			text-shadow
 			shadow-black
+			text-inherit
 		"
 		>
 			{project.summary}

@@ -26,8 +26,11 @@
 				grow
 				pr-2
 				rounded-sm
-				dark:bg-slate-800
-				bg-slate-300
+				border
+				border-zinc-300
+				dark:border-zinc-800
+				dark:bg-zinc-900
+				bg-zinc-200
 			"
 			type="text"
 			bind:value={currentFilter}

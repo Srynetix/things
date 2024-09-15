@@ -31,7 +31,7 @@
 </script>
 
 <div
-	class={['bg-no-repeat bg-center', $$props.class].filter((c) => c).join(' ')}
+	class={['bg-no-repeat bg-center h-full min-h-64', $$props.class].filter((c) => c).join(' ')}
 	style:background-image={imageToShow ? `url(${imageToShow})` : null}
 >
 	<slot />

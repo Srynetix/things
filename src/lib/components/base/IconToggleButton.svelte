@@ -13,7 +13,7 @@
 	{...$$restProps}
 	{icon}
 	data-toggled={toggled}
-	class={['data-[toggled=true]:text-slate-500', $$props.class].filter((c) => c).join(' ')}
+	class={['data-[toggled=true]:text-zinc-500', $$props.class].filter((c) => c).join(' ')}
 	on:click={() => (toggled = !toggled)}
 	on:click
 />

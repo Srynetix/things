@@ -80,7 +80,7 @@
 		</ResumeContentDetails>
 	</div>
 
-	<div class="flex grow flex-col items-center justify-end mb-8">
+	<div class="flex grow flex-col items-center justify-end mb-12">
 		<QR logo={thingsLogo} width="125" shape="circle" data="https://things.denisbourge.me" />
 	</div>
 </div>

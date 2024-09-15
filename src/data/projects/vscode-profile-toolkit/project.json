@@ -1,0 +1,11 @@
+{
+	"name": "vscode-profile-toolkit",
+	"technologies": ["Go"],
+	"repository": "https://github.com/Srynetix/vscode-profile-toolkit",
+	"creationDate": "2024-08-09",
+	"maintenanceStatus": "Passive",
+	"summary": "Tool to unpack/repack VSCode profiles.",
+	"published": true,
+	"kind": "App",
+	"appLink": "https://github.com/Srynetix/vscode-profile-toolkit/releases"
+}

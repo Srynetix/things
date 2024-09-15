@@ -26,7 +26,7 @@
 
 	<div class="overflow-x-auto overflow-y-hidden mb-4" bind:this={container}>
 		<div
-			class="c-resume bg-slate-100 dark:bg-slate-900 border rounded border-slate-400 dark:border-slate-700"
+			class="c-resume bg-zinc-100 dark:bg-zinc-900 border rounded border-zinc-400 dark:border-zinc-700"
 		>
 			<ResumeHeader />
 			<div class="flex flex-row grow">
@@ -38,7 +38,7 @@
 
 	<div class="flex flex-col items-center justify-center">
 		<button
-			class="p-2 border border-slate-700 rounded-lg flex flex-row items-center justify-center gap-1"
+			class="p-2 border border-zinc-700 rounded-lg flex flex-row items-center justify-center gap-1"
 			on:click={exportCv}
 		>
 			<iconify-icon icon="mdi:download" noobserver></iconify-icon>

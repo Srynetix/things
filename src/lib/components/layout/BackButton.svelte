@@ -39,6 +39,6 @@
 	on:click={() => handleBackButton()}
 	style:visibility={pathname === '/' ? 'hidden' : null}
 >
-	<iconify-icon width="2rem" icon="octicon:chevron-up-16" title="Go to the parent page" noobserver
+	<iconify-icon width="2rem" icon="octicon:chevron-left-16" title="Go to the parent page" noobserver
 	></iconify-icon>
 </div>
