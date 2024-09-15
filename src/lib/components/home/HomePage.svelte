@@ -15,10 +15,10 @@
 	"
 	>
 		<div class="pt-2 text-5xl">Things.</div>
-		<div class="text-2xl text-center px-4">Things I made, things I like, things I'm making.</div>
+		<div class="text-xl text-center px-4">Things I made, things I like, things I'm making.</div>
 	</div>
 	<div>
-		<img class="self-center m-2 rounded-3xl w-48" src={myPhoto} alt="Me" />
+		<img class="self-center m-2 rounded-3xl w-32 lg:w-48" src={myPhoto} alt="Me" />
 	</div>
 	<div
 		class="
