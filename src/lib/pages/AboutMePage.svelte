@@ -10,7 +10,7 @@
 "
 >
 	<h1>About me</h1>
-	<img class="self-center m-2 rounded-3xl w-64" src={myPhoto} alt="Me" />
+	<img class="self-center m-2 rounded-3xl w-32 lg:w-48" src={myPhoto} alt="Me" />
 
 	<MarkdownLayout>
 		<svelte:component this={myBio} />

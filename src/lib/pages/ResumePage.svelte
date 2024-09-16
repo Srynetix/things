@@ -1,7 +1,7 @@
 <script lang="ts">
-	import ResumeContent from './ResumeContent.svelte';
-	import ResumeHeader from './ResumeHeader.svelte';
-	import ResumeSidebar from './ResumeSidebar.svelte';
+	import ResumeContent from '$lib/components/resume/ResumeContent.svelte';
+	import ResumeHeader from '$lib/components/resume/ResumeHeader.svelte';
+	import ResumeSidebar from '$lib/components/resume/ResumeSidebar.svelte';
 
 	import FileSaver from 'file-saver';
 	import * as htmlToImage from 'html-to-image';

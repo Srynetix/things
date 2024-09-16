@@ -1,5 +1,5 @@
 <script lang="ts">
-	import ProjectPage from '$/lib/components/projects/ProjectPage.svelte';
+	import ProjectPage from '$/lib/pages/ProjectPage.svelte';
 	import type { PageData } from './$types';
 	export let data: PageData;
 </script>

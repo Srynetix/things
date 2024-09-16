@@ -1,5 +1,5 @@
 <script>
-	import HomeLink from './HomeLink.svelte';
+	import HomeLink from '$lib/components/home/HomeLink.svelte';
 	import myPhoto from '$/data/assets/images/me.jpg';
 </script>
 

@@ -1,5 +1,5 @@
 <script lang="ts">
-	import AboutMePage from '$/lib/components/about/AboutMePage.svelte';
+	import AboutMePage from '$/lib/pages/AboutMePage.svelte';
 </script>
 
 <svelte:head>

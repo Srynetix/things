@@ -1,5 +1,5 @@
 <script lang="ts">
-	import PostPage from '$/lib/components/posts/PostPage.svelte';
+	import PostPage from '$/lib/pages/PostPage.svelte';
 	import type { PageData } from './$types';
 
 	export let data: PageData;
