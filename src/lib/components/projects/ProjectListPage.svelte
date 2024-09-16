@@ -107,7 +107,7 @@
 					{/if}
 				</div>
 			</div>
-			<div class="flex flex-col lg:flex-wrap lg:flex-row justify-center gap-3 w-full">
+			<div class="flex flex-wrap flex-row justify-center gap-3 w-full">
 				{#each entry.projects as project (project.slug)}
 					<ProjectCard {project} on:tag:click={(e) => addTagToCurrentFilter(e.detail)} />
 				{/each}

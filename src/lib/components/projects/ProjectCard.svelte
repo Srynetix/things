@@ -16,6 +16,7 @@
 	class="
 	shadow-lg
 	w-64
+	lg:w-96
 	h-96
 	self-center
 "
