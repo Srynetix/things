@@ -1,0 +1,15 @@
+{
+	"name": "ROLL!",
+	"technologies": ["Godot Engine", "GDScript"],
+	"repository": "https://github.com/Srynetix/roll",
+	"creationDate": "2024-10-05",
+	"maintenanceStatus": "Stable",
+	"summary": "Roll and jump in music to save your own kind.",
+	"published": true,
+	"kind": "JamGame",
+	"jamName": "Ludum Dare",
+	"jamEdition": "56",
+	"jamPageLink": "https://ldjam.com/events/ludum-dare/56/roll",
+	"jamGameLink": "https://srynetix.github.io/roll/",
+	"jamRank": "TBA"
+}

@@ -11,10 +11,10 @@
 	<div>
 		<ResumeContentTitle>Professional Experiences</ResumeContentTitle>
 		<ResumeContentDetails>
-			<p>2016, now &mdash; SharingCloud (Boulogne-Billancourt, France)</p>
+			<p>2016 - 2024 &mdash; SharingCloud (Boulogne-Billancourt, France)</p>
 			<ul>
 				<li>
-					2023, now &mdash; Software Architect
+					2023 - 2024 &mdash; Software Architect
 					<ul>
 						<li>
 							Creation of the last iteration of the development machine, based on Bash and
